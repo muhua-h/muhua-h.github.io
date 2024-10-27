@@ -18,13 +18,9 @@ main:
   - title: "Educations"
     url: "#-educations"
 
-
-
   - title: "Internships"
     url: "#-internships"
+#
+#  - title: "Courses"
+#    url: "#-courses"
 
-  - title: "Courses"
-    url: "#-courses"
-
-  - title: "Certifications"
-    url: "#-certifications"
