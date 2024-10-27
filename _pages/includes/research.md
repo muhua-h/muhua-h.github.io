@@ -1,6 +1,6 @@
 
-# 🔍 Research Experience
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">A Psychometrics Approach</div><img src='../../images/designing_agents_with_personalities.png' alt="sym" width="100%"></div></div>
+# 🔍 Research Projects
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">UChicago Knowledge Lab</div><img src='../../images/designing_agents_with_personalities.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Designing LLM-Agents with Personalities: A Psychometrics Approach](https://media.licdn.com/dms/image/D562DAQH-TMbKmuoXmA/profile-treasury-document-images_1920/1/1722943480692?e=1730937600&v=beta&t=w69T0uwiGhf_JsBSpv16YpeRq_-73VG2qIufyk8Qepw) | 2023.10 – Present
@@ -39,10 +39,10 @@
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">A Stuudy using Machine Learning</div><img src='../../images/a_stuudy_using_machine_learning.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">UBC MAGIC Lab</div><img src='../../images/a_stuudy_using_machine_learning.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Socioeconomics and Children's Imagined Future: A Stuudy using Machine Learning](https://media.licdn.com/dms/image/v2/D562DAQE9ReXWMG_xTQ/profile-treasury-document-cover-images_480/profile-treasury-document-cover-images_480/0/1695325515774?e=1730635200&v=beta&t=UJDwOJ3PvzSkRsptYcOKpqDeivjxImidts2pdVjB1v4) | 2020.09 – 2021.09
+[Socioeconomics and Children's Imagined Future: A Study using Machine Learning](https://media.licdn.com/dms/image/v2/D562DAQE9ReXWMG_xTQ/profile-treasury-document-cover-images_480/profile-treasury-document-cover-images_480/0/1695325515774?e=1730635200&v=beta&t=UJDwOJ3PvzSkRsptYcOKpqDeivjxImidts2pdVjB1v4) | 2020.09 – 2021.09
 - Analyzed 10,000+ essays and socioeconomic data using Machine Learning and Natural Language Processing (i.e., Structural Topic Model).
 - Managed / supervised a group of 20 research assistants; Developed protocols and offered technical support.
 - Poster Presentation at the Association for Psychological Science 2020 Annual Convention.
@@ -51,7 +51,7 @@
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Evaluated personalized explainable AI tutoring system</div><img src='../../images/evaluated_personalized_explainable_ai_tutoring_system.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">UBC Human-centered AI Lab</div><img src='../../images/evaluated_personalized_explainable_ai_tutoring_system.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Gauging Student Engagement with an Explainable Al interface via Eye-tracking](https://media.licdn.com/dms/image/D562DAQH3C-e0Ren8OQ/profile-treasury-document-images_1280/1/1695340246304?e=1730937600&v=beta&t=kLo3NrxH7RE-YXCOPaMf1ZMGsCF_37qBnXoD4h-uI70) | 2021.11 – 2022.09
