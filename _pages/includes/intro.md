@@ -1,10 +1,19 @@
 # 🧑‍🎨 About Me
-I am working as a research intern at &nbsp;<img src='../../images/microsoft_logo_long.png' style='width: 110px; height:17px;'>
+Hello! I’m Muhua Huang, a Master’s student in Computational Social Science at the 
+University of Chicago. I received my Bachelor's degree from University of British Columbia (UBC),
+with a double major in Computer Science and Psychology (Honors). I am passionate about 
+exploring the intersection of human behavior, computational methods, and artificial intelligence. 
 
-I am a graduate student in Computational Social Science, holding a bachelor's degree with a double major in Computer Science and Psychology. My four years of data science & behavioral science research experience have honed skills that readily apply to consulting, data science, and behavioral analysis.
+My past research spans across Computational Social Science, Social Computing, Human-centered AI, Social Psychology and 
+Quantitative Psychology.In my research project, I leverage theories in Sociology and Psychology and various computational 
+tools including Natural Language Process, Machine Learning, Social Network Analysis and statistical 
+models for behavioral science (e.g., Structural Equation Modelling,Factor Analysis and Regression).
 
-My proficiency extends beyond technical expertise; I excel at translating complex solutions into accessible insights, a skill I've cultivated through my research and teaching background. Additionally, my grounding in psychology has instilled a user-centric perspective, which is instrumental in understanding human needs and behaviors.
-
-Technical Proficiencies: `R`, `Python`, `Java`, `JavaScript`, `LaTeX`, `SQL`
-
-Skills: Project Management, Experiment Design, Quantitative Analysis (Regressions, NLP, Surveys, Machine Learning), Data Visualization (D3, Shiny), Data Processing, Large-Scale Data, Web Scraping, Communication & Outreach
+My research interests lie at the intersection of Computational Social Science, Human-centered AI (HAI), and Social 
+Computing, driven by three fundamental questions.  
+1. Instead of having AIs to mimic or replace humans, how can we 
+use AI to facilitate research endeavors and augment human capabilities? 
+2. How do AI systems fundamentally differ from human intelligence, and what novel frameworks can we develop to study 
+their unique characteristics? 
+3. Given that LLMs represent a compressed form of collective human knowledge, what new insights about human behavior 
+society can we uncover by studying their internal representations? 
