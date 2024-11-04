@@ -1,8 +1,8 @@
 
 # 📝 Publications 
 ## Journals
-- **Huang, M.**, Zhang, X., Soto, C., John, O., & Evans, J. (Under Review). Designing LLM-Agents with Personalities: A Psychometric Approach. *Psychological Methods*.
-- Zhang, X., **Huang, M.**, Sun, J., & Savalei, V. (Under Review). Improving the Measurement of the Big Five via Alternative Formats for the BFI-2. *Personality Science*.
+- **Huang, M.**, Zhang, X., Soto, C., & Evans, J. Designing LLM-Agents with Personalities: A Psychometric Approach [[Preprint]](https://arxiv.org/abs/2410.19238).
+- Zhang, X., **Huang, M.**, Sun, J., & Savalei, V. (Under Review). Improving the Measurement of the Big Five via Alternative Formats for the BFI-2 [[Preprint]](https://osf.io/preprints/osf/p493y).
 - Savalei, V., & **Huang, M.** (2023). Fit Indices Are Insensitive to Multiple Minor Violations of Perfect Simple Structure in Confirmatory Factor Analysis. *Psychological Methods*.
 - Laurin, K., Engstrom, H., & **Huang, M.** (2022). What Will My Life Be Like When I’m 25? How Social Class Predicts Kids’ Answers to This Question, and How Their Answers Predict Their Futures. *Journal of Social Issues*.
 ## Conferences
