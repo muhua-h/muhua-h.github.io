@@ -1,4 +1,3 @@
-
 # 📝 Publications 
 ## Journals
 - **Huang, M.**, Zhang, X., Soto, C., & Evans, J. Designing LLM-Agents with Personalities: A Psychometric Approach [[Preprint]](https://arxiv.org/abs/2410.19238).

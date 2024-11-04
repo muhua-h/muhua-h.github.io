@@ -1,23 +1,20 @@
 # 📖 Educations
-- *2023.08 - 2025.06*, The University of Chicago
-  - Master's degree，Computational Social Science
+- **The University of Chicago** | 2023.09 - 2025.06
+  - MA in Computational Social Science
   - GPA: 3.9/4.0
 
-- *2018.09 - 2023.05*, The University of British Columbia
-  - Bachelor of Arts - BA，Computer Science & Psychology (Honours)
+- **The University of British Columbia** | 2018.09 - 2023.06
+  - BA in Computer Science & Psychology (Honours)
   - GPA: 4.2/4.3
 
-- *2024.06 - 2024.07*
-  - Summer Institute in Computational Social Science (Beijing)
-  - My project *"Re-Discovering Big Five using Embeddings"* won Outstanding project award with scholarship. 
-
-- *2021.09 - 2022.09*
-  - Google Research Mentorship Program
-  - Mentored by Google Research - career planning & state-of-art industrial and application-oriented research sessions
-
-- *2019*, UC Berkeley 
+- **UC Berkeley** | 2019.09 - 2019.12
   - Exchange Student 
   - GPA: 4.0/4.0
+  
+- **Summer Institute in Computational Social Science (Beijing)** | 2024.06 - 2024.07
+  - My project *"Re-Discovering Big Five using Embeddings"* won Outstanding project award with scholarship. 
+
+- **Google Research Mentorship Program** | 2021.09 - 2021.12
 
 # 💻 Internships
 Microsoft Research Asia | Research Intern | 2024.7 – 2024.10
