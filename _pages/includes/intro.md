@@ -33,3 +33,9 @@ My research has since expanded through collaborations at **Microsoft Research As
 alignment problems.  
 
 Across all my recent projects, I aim to build a *computational psychology of AI*: a framework that treats intelligent systems as evolving and active social participants that reflect and reshape human society.
+
+---
+
+<div class="last-updated">
+<small><em>Website last updated: November 2025</em></small>
+</div>
