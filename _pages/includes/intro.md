@@ -4,7 +4,7 @@ I am also a member of UChicago [Knowledge Lab](https://www.knowledgelab.org/) an
 
 ---
 
-## About Me  
+## 👤 About Me  
 I am intrigued by big questions about humans, society, and AI:
 
 - Instead of having AI mimic or replace humans, how can we use it to facilitate research and augment human capabilities?  
