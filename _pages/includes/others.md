@@ -1,4 +1,7 @@
 # 📖 Educations
+- **Stanford Graduate School of Business** | 2025.09 - 2030.06
+  - PhD in Organizational Behavior
+
 - **The University of Chicago** | 2023.09 - 2025.06
   - MA in Computational Social Science
   - GPA: 3.9/4.0
@@ -17,15 +20,5 @@
 - **Google Research Mentorship Program** | 2021.09 - 2021.12
 
 # 💻 Internships
-Microsoft Research Asia | Research Intern | 2024.7 – 2024.10
-* Advisor: Dr. Xiaoyuan Yi, Dr. Xing Xie
-  On the Dynamics of LLMs' Values as A Community
-- Engineered a scalable multi-agent system facilitating interactions among up to hundreds of AI agents, incorporating reflection mechanisms, Retrieval-Augmented Generation (RAG), and parallel processing.
-- Applied social science theories (e.g., Schwartz's Theory of Basic Values) as the theoretical frameworks to
-  model and analyze the evolution of AI agents' values through social interactions.
-- Utilized Social Network Analysis to examine the formation, structure and change of social networks among
-  agents with diverse values.
-- Leveraged GraphRAG and NLP to investigate Social Emergence (e.g., unique language, cultural practices,
-  organizations and institutions) in LLM-agent communities.
-- Designed and conducted experiments to assess the impact of value diversity, population size, and temporal
-  factors on agent interactions and social outcomes.
+- **Microsoft Research Asia** | Research Intern | 2024.7 – 2024.10
+  - Research team led by Dr. Xiaoyuan Yi and Dr. Xing Xie
