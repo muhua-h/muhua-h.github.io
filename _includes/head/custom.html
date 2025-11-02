@@ -8,6 +8,138 @@
 <meta name="msapplication-config" content="images/browserconfig.xml?v=M44lzPylqQ">
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="assets/css/academicons.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Custom Academic Website Enhancements */
+.author__avatar img {
+  border-radius: 50%;
+  border: 3px solid #e5e7eb;
+  transition: all 0.3s ease;
+}
+
+.author__avatar img:hover {
+  border-color: #2563eb;
+  transform: scale(1.05);
+}
+
+.author__name {
+  color: #1f2937 !important;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.author__bio {
+  line-height: 1.6;
+  color: #374151;
+}
+
+.profile_box {
+  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+}
+
+.author__urls-wrapper {
+  margin-top: 1rem;
+}
+
+.author__urls li {
+  margin-bottom: 0.5rem;
+}
+
+.author__urls a {
+  color: #374151;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.author__urls a:hover {
+  color: #2563eb;
+}
+
+.social-icons a i {
+  color: #6b7280;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover i {
+  color: #2563eb;
+}
+
+.page__content h2 {
+  color: #1f2937;
+  border-bottom: 2px solid #2563eb;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.page__content h3 {
+  color: #374151;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.page__content p {
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+}
+
+.page__content ul {
+  margin-bottom: 1.5rem;
+}
+
+.page__content li {
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+.page__content hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #e5e7eb, transparent);
+  margin: 2rem 0;
+}
+
+.institution-logo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .profile_box {
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .author__avatar {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .author__urls_sm {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .author__urls {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .author__urls_sm {
+    display: none;
+  }
+}
+</style>
 
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
 <script type="text/x-mathjax-config">

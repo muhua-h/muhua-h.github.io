@@ -46,8 +46,11 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
+    border-bottom: 1px #e5e7eb solid;
     padding: 2em 0 2em 0;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: box-shadow 0.3s ease;
     
 
     .paper-box-image{
@@ -104,8 +107,9 @@ h1:before, .anchor:before {
     margin-top: .5em;
     margin-left: -.5em;
     color: white;
-    background-color: #00369f;
+    background-color: #2563eb;
     font-size: .8em;
+    border-radius: 4px;
 }
 
 .education-item {
@@ -114,7 +118,7 @@ h1:before, .anchor:before {
     align-items: flex-start;
     margin-bottom: 1.5em;
     padding-bottom: 1em;
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid #e5e7eb;
     
     .education-content {
         flex: 1;
