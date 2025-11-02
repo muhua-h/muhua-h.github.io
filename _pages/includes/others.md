@@ -31,7 +31,7 @@
     <div class="education-details">Exchange Student</div>
     <div class="education-details">GPA: 4.0/4.0</div>
   </div>
-  <div class="education-date">2019.09 - 2019.12</div>
+  <div class="education-date">2019</div>
 </div>
 
 <div class="education-item">
