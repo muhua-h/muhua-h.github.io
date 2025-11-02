@@ -13,7 +13,9 @@ redirect_from:
 
 {% include_relative includes/pub.md %}
 
+{% comment %}
 {% include_relative includes/research.md %}
+{% endcomment %}
 
 {% include_relative includes/honers.md %}
 

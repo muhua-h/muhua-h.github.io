@@ -32,4 +32,4 @@ My research has since expanded through collaborations at **Microsoft Research As
 [Dr. Xing Xie](https://www.microsoft.com/en-us/research/people/xingx/), where we examine AI 
 alignment problems.  
 
-Across all my current projects, I aim to build a *computational psychology of AI*: a framework that treats intelligent systems as evolving social participants that reflect and reshape human values.
+Across all my recent projects, I aim to build a *computational psychology of AI*: a framework that treats intelligent systems as evolving and active social participants that reflect and reshape human society.

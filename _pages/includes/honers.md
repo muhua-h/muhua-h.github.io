@@ -1,25 +1,92 @@
 # 🎖 Honors and Awards
 
-<h3><img src='../../images/OpenAI.png' alt='OpenAI' style='width: 2em; height:2em;'> 2024 OpenAI Researcher Access Program</h3>
-- Received $3,500 from OpenAI for participating in the Researcher Access Program.
+<div class="education-item">
+  <div class="education-content">
+    <strong>Stanford Graduate School of Business Doctoral Fellowship</strong>
+  </div>
+  <div class="education-date">2025-2030</div>
+</div>
 
-<h3><img src='../../images/SICSS.png' alt='SICSS Beijing' style='width: 2em; height:2em;'> 2024 SICSS-Beijing Merit-Based Scholarship</h3>
-- Received ¥3,600 merit-based scholarship for participating in the SICSS Beijing program.
+<div class="education-item">
+  <div class="education-content">
+    <strong>Stanford University EDGE Doctoral Fellowship</strong> ($12,800)
+  </div>
+  <div class="education-date">2025</div>
+</div>
 
-<h3><img src='../../images/Chicago.jpeg' alt='University of Chicago' style='width: 2em; height:2em;'> 2023 and 2024 UChicago Quadrangle Research Scholarship</h3>
-- Awarded a highly competitive merit-based scholarship totaling $80,000 across two years for the Master's of Computational Social Science program.
+<div class="education-item">
+  <div class="education-content">
+    <strong>UChicago Outstanding Thesis Award</strong> ($1,000)
+  </div>
+  <div class="education-date">2025</div>
+</div>
 
-<h3><img src='../../images/Chicago.jpeg' alt='University of Chicago' style='width: 2em; height:2em;'> 2023 and 2024 UChicago Social Sciences Promise & Merit Scholarship</h3>
-- Received a merit-based award totaling $10,000 from the Social Science Division.
+<div class="education-item">
+  <div class="education-content">
+    <strong>Microsoft Research Asia Outstanding Intern Award</strong> (Stars of Tomorrow Certificate)
+  </div>
+  <div class="education-date">2024</div>
+</div>
 
-<h3><img src='../../images/ubc2.jpeg' alt='UBC Department of Psychology' style='width: 2em; height:2em;'> 2021 Quinn Research Assistantship Award</h3>
-- Awarded $8,300 to support undergraduate research in psychology, encouraging students to pursue graduate studies and a research career.
+<div class="education-item">
+  <div class="education-content">
+    <strong>OpenAI Researcher Access Program</strong> ($3,500)
+  </div>
+  <div class="education-date">2024</div>
+</div>
 
-<h3><img src='../../images/ubc.jpeg' alt='The University of British Columbia' style='width: 2em; height:2em;'> 2021 UBC International Community Achievement Award</h3>
-- Received $5,000 for demonstrating leadership in community service, international engagement, and promotion of diversity.
+<div class="education-item">
+  <div class="education-content">
+    <strong>SICSS-Beijing Merit-Based Scholarship</strong> (¥3,600)
+  </div>
+  <div class="education-date">2024</div>
+</div>
 
-<h3><img src='../../images/ubc.jpeg' alt='The University of British Columbia' style='width: 2em; height:2em;'> 2019 and 2020 Trek Excellence Scholarship</h3>
-- Awarded $2,000 to students in the top 10% of their undergraduate year, faculty, and school.
+<div class="education-item">
+  <div class="education-content">
+    <strong>UChicago Computational Social Science Research Poster Competition</strong> (Honorable Mention, 2nd Place)
+  </div>
+  <div class="education-date">2024</div>
+</div>
 
-<h3><img src='../../images/ubc.jpeg' alt='The University of British Columbia' style='width: 2em; height:2em;'> 2019, 2020 and 2022 Faculty of Arts International Student Scholarship</h3>
-- Awarded $8,800 across multiple years for international students demonstrating strong academic achievement and scholarly potential.
+<div class="education-item">
+  <div class="education-content">
+    <strong>UChicago Quadrangle Research Scholarship</strong> ($80,000)
+  </div>
+  <div class="education-date">2023, 2024</div>
+</div>
+
+<div class="education-item">
+  <div class="education-content">
+    <strong>UChicago Social Sciences Promise & Merit Scholarship</strong> ($10,000)
+  </div>
+  <div class="education-date">2023, 2024</div>
+</div>
+
+<div class="education-item">
+  <div class="education-content">
+    <strong>Quinn Research Assistantship Award</strong> ($8,300)
+  </div>
+  <div class="education-date">2021</div>
+</div>
+
+<div class="education-item">
+  <div class="education-content">
+    <strong>UBC International Community Achievement Award</strong> ($5,000)
+  </div>
+  <div class="education-date">2021</div>
+</div>
+
+<div class="education-item">
+  <div class="education-content">
+    <strong>UBC Trek Excellence Scholarship</strong> ($2,000)
+  </div>
+  <div class="education-date">2019, 2020</div>
+</div>
+
+<div class="education-item">
+  <div class="education-content">
+    <strong>UBC Faculty of Arts International Student Scholarship</strong> ($8,800)
+  </div>
+  <div class="education-date">2019, 2020, 2022</div>
+</div>
