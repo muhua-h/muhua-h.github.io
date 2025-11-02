@@ -70,19 +70,26 @@
   color: #2563eb;
 }
 
-/* Primary selector for all section headers */
+/* Primary selector for main section headers only (h1) */
 .page__content h1, 
-.page__content h2,
 section.page__content h1,
-section.page__content h2,
-article.page h1,
-article.page h2 {
+article.page h1 {
   color: #1f2937 !important;
   border-bottom: 2px solid #2563eb !important;
   padding-bottom: 0.5rem !important;
   margin-bottom: 1.5rem !important;
   font-weight: 600 !important;
   margin-top: 2rem !important;
+}
+
+/* Subsection headers (h2) without blue underline */
+.page__content h2,
+section.page__content h2,
+article.page h2 {
+  color: #1f2937 !important;
+  font-weight: 600 !important;
+  margin-bottom: 1rem !important;
+  margin-top: 1.5rem !important;
 }
 
 .page__content h3 {
