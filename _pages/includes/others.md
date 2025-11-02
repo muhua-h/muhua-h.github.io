@@ -39,14 +39,14 @@
     <strong>Summer Institute in Computational Social Science (Beijing)</strong>
     <div class="education-details">My project <em>"Re-Discovering Big Five using Embeddings"</em> won Outstanding project award with scholarship.</div>
   </div>
-  <div class="education-date">2024.06 - 2024.07</div>
+  <div class="education-date">2024</div>
 </div>
 
 <div class="education-item">
   <div class="education-content">
     <strong>Google Research Mentorship Program</strong>
   </div>
-  <div class="education-date">2021.09 - 2021.12</div>
+  <div class="education-date">2021</div>
 </div>
 
 # 💻 Internships
