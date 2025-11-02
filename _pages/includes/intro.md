@@ -1,10 +1,10 @@
-## TL;DR  
+# TL;DR  
 I am a PhD student in Organizational Behavior at the Stanford Graduate School of Business, broadly studying personality, culture, values, and cognition within the space of Computational Social Science.  
 I am also a member of UChicago [Knowledge Lab](https://www.knowledgelab.org/) and the [Stanford–Berkeley Computational Culture Lab](https://www.comp-culture.org/).
 
 ---
 
-## 👤 About Me  
+# 👤 About Me  
 I am intrigued by big questions about humans, society, and AI:
 
 - Instead of having AI mimic or replace humans, how can we use it to facilitate research and augment human capabilities?  
