@@ -1,4 +1,12 @@
-# TL;DR  
+<div class="header-section">
+  <div class="tldr-title">
+    <h1>TL;DR</h1>
+  </div>
+  <div class="last-updated-top">
+    <small><em>Last updated: November 2025</em></small>
+  </div>
+</div>
+
 I am a PhD student in Organizational Behavior at the Stanford Graduate School of Business, broadly studying personality, culture, values, and cognition within the space of Computational Social Science.  
 I am also a member of UChicago [Knowledge Lab](https://www.knowledgelab.org/) and the [Stanford–Berkeley Computational Culture Lab](https://www.comp-culture.org/).
 
@@ -33,9 +41,3 @@ My research has since expanded through collaborations at **Microsoft Research As
 alignment problems.  
 
 Across all my recent projects, I aim to build a *computational psychology of AI*: a framework that treats intelligent systems as evolving and active social participants that reflect and reshape human society.
-
----
-
-<div class="last-updated">
-<small><em>Website last updated: November 2025</em></small>
-</div>

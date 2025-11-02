@@ -156,18 +156,40 @@ article.page h2 {
   }
 }
 
-/* Last Updated Section */
-.last-updated {
-  text-align: center;
-  margin-top: 3rem;
-  padding-top: 1rem;
-  border-top: 1px solid #e5e7eb;
-  color: #6b7280;
+/* Header Section with TL;DR and Last Updated */
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 1rem;
 }
 
-.last-updated small {
+.tldr-title h1 {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+.last-updated-top {
+  color: #6b7280;
+  text-align: right;
+}
+
+.last-updated-top small {
   font-size: 0.875rem;
   opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .header-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .last-updated-top {
+    text-align: left;
+    margin-top: 0.5rem;
+  }
 }
 </style>
 
