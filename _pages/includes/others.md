@@ -50,5 +50,12 @@
 </div>
 
 # 💻 Internships
-- **Microsoft Research Asia** | Research Intern | 2024.7 – 2024.10
-  - Research team led by Dr. Xiaoyuan Yi and Dr. Xing Xie
+
+<div class="education-item">
+  <div class="education-content">
+    <strong>Microsoft Research Asia</strong>
+    <div class="education-details">Research Intern</div>
+    <div class="education-details">Research team led by Dr. Xiaoyuan Yi and Dr. Xing Xie</div>
+  </div>
+  <div class="education-date">2024.07 - 2024.10</div>
+</div>
