@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Muhua Huang"
-description              : "Ex-Intern @Microsoft Research.<br/>MA in Computational Social Science @UChicago.<br/>Bachelor's in Computer Science & Psychology"
+description              : "PhD student @Stanford | Ex-Intern @Microsoft Research | Computational Social Science @UChicago | CS & Psychology @ UBC"
 repository               : "muhua-h/muhua-h.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,10 +24,10 @@ author:
   name             : "Muhua Huang"
   avatar           : "images/hmy_profile.jpeg"
   bio              : "<div><img src='../../images/microsoft_logo_long.png' width='30%'></div>"
-  location         : "Chicago, United States"
+  location         : "Palo Alto"
   employer         :
   pubmed           : 
-  googlescholar    : #"https://scholar.google.com/citations?user=4FA6C0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=JxIbPdoAAAAJ&hl=en&inst=5746887945952177237"
   email            : "muhua@uchicago.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
