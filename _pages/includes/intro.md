@@ -1,19 +1,35 @@
-# 🧑‍🎨 About Me
-Hello! I’m Muhua Huang, a Master’s student in Computational Social Science at the 
-University of Chicago. I received my Bachelor's degree from University of British Columbia (UBC),
-with a double major in Computer Science and Psychology (Honors). I am passionate about 
-exploring the intersection of human behavior, computational methods, and artificial intelligence. 
+## TL;DR  
+I am a PhD student in Organizational Behavior at the Stanford Graduate School of Business, broadly studying personality, culture, values, and cognition within the space of Computational Social Science.  
+I am also a member of UChicago [Knowledge Lab](https://www.knowledgelab.org/) and the [Stanford–Berkeley Computational Culture Lab](https://www.comp-culture.org/).
 
-My past research spans across Computational Social Science, Social Computing, Human-centered AI, Social Psychology and 
-Quantitative Psychology.In my research project, I leverage theories in Sociology and Psychology and various computational 
-tools including Natural Language Process, Machine Learning, Social Network Analysis and statistical 
-models for behavioral science (e.g., Structural Equation Modelling,Factor Analysis and Regression).
+---
 
-My research interests lie at the intersection of Computational Social Science, Human-centered AI (HAI), and Social 
-Computing, driven by three fundamental questions.  
-1. Instead of having AIs to mimic or replace humans, how can we 
-use AI to facilitate research endeavors and augment human capabilities? 
-2. How do AI systems fundamentally differ from human intelligence, and what novel frameworks can we develop to study 
-their unique characteristics? 
-3. Given that LLMs represent a compressed form of collective human knowledge, what new insights about human behavior 
-society can we uncover by studying their internal representations? 
+## About Me  
+I am intrigued by big questions about humans, society, and AI:
+
+- Instead of having AI mimic or replace humans, how can we use it to facilitate research and augment human capabilities?  
+- How do AI systems fundamentally differ from human intelligence, and what new theories or frameworks can we develop to study their unique characteristics?  
+- Given that large language models represent a compressed form of collective human knowledge, what new insights about human behavior and society can we uncover by studying their internal representations?  
+
+At Stanford, I am (1) developing a new theoretical framework to understand and conceptualize AI’s values and (2) investigating AI’s cognition and representations through a social science lens.  
+
+Previously, I completed my **M.A. in Computational Social Science** at **The University of Chicago**, advised by [Dr. James Evans](https://sociology.uchicago.edu/directory/james-evans), where we explored ways to use Generative Agent-Based Modelling to simulate psychological and social phenomena. 
+Together, we explored how Generative Agent-Based Modelling can be used to simulate psychological 
+and social phenomena. Dr. Evans has profoundly influenced me in many dimensions: 
+he taught me to pursue bold ideas with confidence, support others generously, and carry a strong, decisive energy into everything I do. His motto—“gives a week, takes a week; gives a minute, takes a minute”—continues to guide how I approach research and life.
+
+Before that, I earned my **B.A. in Computer Science and Psychology (Honours)** from **The University of 
+British Columbia**, where I was fortunate to be mentored by [Dr. Victoria Savalei](https://psych.ubc.ca/profile/victoria-savalei/), 
+[Dr. Kristin Laurin](https://psych.ubc.ca/profile/kristin-laurin/), and 
+[Dr. Christina Conati](https://www.cs.ubc.ca/~conati/). Their patience, rigor, and unwavering
+support helped me find my footing in research and build a strong foundation for interdisciplinary
+work. At UBC, I explored topics from psychometric modeling of personality to socioeconomic 
+cognition and explainable AI—experiences that continue to shape my curiosity and approach to 
+scientific inquiry.
+
+My research has since expanded through collaborations at **Microsoft Research Asia** with 
+[Dr. Xiaoyuan Yi](https://www.microsoft.com/en-us/research/people/yixiaoyuan/) and 
+[Dr. Xing Xie](https://www.microsoft.com/en-us/research/people/xingx/), where we examine AI 
+alignment problems.  
+
+Across all my current projects, I aim to build a *computational psychology of AI*: a framework that treats intelligent systems as evolving social participants that reflect and reshape human values.
