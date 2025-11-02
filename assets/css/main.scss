@@ -107,3 +107,38 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.education-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #f0f0f0;
+    
+    .education-content {
+        flex: 1;
+        margin-right: 2em;
+        
+        strong {
+            display: block;
+            margin-bottom: 0.5em;
+            font-size: 1.1em;
+        }
+        
+        .education-details {
+            margin-bottom: 0.3em;
+            color: #666;
+            font-size: 0.95em;
+        }
+    }
+    
+    .education-date {
+        flex-shrink: 0;
+        text-align: right;
+        font-weight: 500;
+        color: #555;
+        white-space: nowrap;
+        min-width: 140px;
+    }
+}
