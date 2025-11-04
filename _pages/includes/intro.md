@@ -25,7 +25,9 @@ At Stanford, I am (1) developing a new theoretical framework to understand and c
 Previously, I completed my **M.A. in Computational Social Science** at **The University of Chicago**, advised by [Dr. James Evans](https://sociology.uchicago.edu/directory/james-evans), where we explored ways to use Generative Agent-Based Modelling to simulate psychological and social phenomena. 
 Together, we explored how Generative Agent-Based Modelling can be used to simulate psychological 
 and social phenomena. Dr. Evans has profoundly influenced me in many dimensions: 
-he taught me to pursue bold ideas with confidence, support others generously, and carry a strong, decisive energy into everything I do. His motto—“gives a week, takes a week; gives a minute, takes a minute”—continues to guide how I approach research and life.
+he taught me to pursue bold ideas with confidence, support others generously, and carry a strong, decisive energy 
+into everything I do. I also learned the “gives a week, takes a week; gives a minute, 
+takes a minute” philosophy from him, which continues to guide how I approach research and life.
 
 Before that, I earned my **B.A. in Computer Science and Psychology (Honours)** from **The University of 
 British Columbia**, where I was fortunate to be mentored by [Dr. Victoria Savalei](https://psych.ubc.ca/profile/victoria-savalei/), 
