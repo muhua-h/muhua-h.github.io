@@ -1,6 +1,13 @@
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+  
+  <!-- Visitor Map Widget -->
+  <div class="visitor-map" style="margin-top: 20px; text-align: center;">
+    <h3 style="font-size: 1.1em; margin-bottom: 10px;">🌍 Visitors Around the World</h3>
+    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5xywqd7o4zg&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
+  </div>
+  
   {% if page.sidebar %}
     {% for s in page.sidebar %}
       {% if s.image %}
