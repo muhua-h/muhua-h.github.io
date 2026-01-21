@@ -20,9 +20,7 @@ I am intrigued by big questions about humans, society, and AI:
 - How do AI systems fundamentally differ from human intelligence, and what new theories or frameworks can we develop to study their unique characteristics?  
 - Given that large language models represent a compressed form of collective human knowledge, what new insights about human behavior and society can we uncover by studying their internal representations?  
 
-At Stanford, I am (1) developing a new theoretical framework to understand and conceptualize AI’s values and (2) investigating AI’s cognition and representations through a social science lens.  
-
-Previously, I completed my **M.A. in Computational Social Science** at **The University of Chicago**, advised by [Dr. James Evans](https://sociology.uchicago.edu/directory/james-evans), where we explored ways to use Generative Agent-Based Modelling to simulate psychological and social phenomena. 
+Prior to Stanford, I completed my **M.A. in Computational Social Science** at **The University of Chicago**, advised by [Dr. James Evans](https://sociology.uchicago.edu/directory/james-evans), where we explored ways to use Generative Agent-Based Modelling to simulate psychological and social phenomena. 
 Together, we explored how Generative Agent-Based Modelling can be used to simulate psychological 
 and social phenomena. Dr. Evans has profoundly influenced me in many dimensions: 
 he taught me to pursue bold ideas with confidence, support others generously, and carry a strong, decisive energy 
