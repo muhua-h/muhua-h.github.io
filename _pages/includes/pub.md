@@ -13,6 +13,8 @@
 - Laurin, K., Engstrom, H., & **Huang, M.** (2024). What will my life be like when I'm 25? How social class predicts kids' answers to this question, and how their answers predict their futures. *Journal of Social Issues*. [https://doi.org/10.1111/josi.12650](https://doi.org/10.1111/josi.12650)
 
 ## Conference Presentations
+- Zhang, X., & **Huang, M.** (2026, June). Designing AI-agents for generating synthetic data for psychological research. *Canadian Psychological Association (CPA) Convention*, Montréal, Canada.
+- Falk, C. F., Zhang, X., Guenole, N., **Huang, M.**, & Li, W. (2026, June). Understanding silicon sampling through a psychometric lens. *Canadian Psychological Association (CPA) Convention*, Montréal, Canada.
 - **Huang, M.**, Biedma, P., Yi, X., Huang, L., Sun, M., Evans, J., Xie, X. (2025, July). Beyond Anthropomorphism: Unveiling Unique Value Structure of Large Language Models (LLMs) via a Psychometric Approach. *11th International Conference on Computational Social Science (IC2S2)*, Norrköping, Sweden.
 - **Huang, M.** & Huang, N. (2025, August). Re-Discovering the Big Five: Using LLM Embeddings to Understand Personality Structure. *American Psychological Association (APA) Convention*, Denver, USA.
 - **Huang, M.** (2024, August). Designing LLM-Agents with Personalities: A Psychometric Approach [Poster]. *American Psychological Association (APA) Convention*, Seattle, USA.
