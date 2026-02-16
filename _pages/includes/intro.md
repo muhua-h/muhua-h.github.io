@@ -3,7 +3,7 @@
     <h1>TL;DR</h1>
   </div>
   <div class="last-updated-top">
-    <small><em>Last updated: November 2025</em></small>
+    <small><em>Last updated: Feb 2026</em></small>
   </div>
 </div>
 
