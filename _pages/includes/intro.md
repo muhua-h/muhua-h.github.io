@@ -7,22 +7,19 @@
   </div>
 </div>
 
-I am a PhD student in Organizational Behavior at the Stanford Graduate School of Business, broadly studying personality, 
-culture, values, and cognition within the space of AI for Social Science. I am also a member of UChicago [Knowledge Lab](https://www.knowledgelab.org/) 
+I am a PhD student in Organizational Behavior at the Stanford Graduate School of Business, broadly studying 
+culture, values, cognition and individual differences within the space of AI for Social Science. I am also a member of UChicago [Knowledge Lab](https://www.knowledgelab.org/) 
 and the [Stanford–Berkeley Computational Culture Lab](https://www.comp-culture.org/).
 
 ---
 
 # 👤 About Me  
 I am intrigued by big questions about humans, society, and AI:
-
-- Instead of having AI mimic or replace humans, how can we use it to facilitate research and augment human capabilities?  
 - How do AI systems fundamentally differ from human intelligence, and what new theories or frameworks can we develop to study their unique characteristics?  
-- Given that large language models represent a compressed form of collective human knowledge, what new insights about human behavior and society can we uncover by studying their internal representations?  
+- Given that large language models represent a compressed form of collective human knowledge, what new insights about human behavior and society can we uncover by studying their concept representations?  
+- How do AI systems, as social actors, challenge and alter the current interaction dynamic and power structure? 
 
-Prior to Stanford, I completed my **M.A. in Computational Social Science** at **The University of Chicago**, advised by [Dr. James Evans](https://sociology.uchicago.edu/directory/james-evans), where we explored ways to use Generative Agent-Based Modelling to simulate psychological and social phenomena. 
-Together, we explored how Generative Agent-Based Modelling can be used to simulate psychological 
-and social phenomena. Dr. Evans has profoundly influenced me in many dimensions: 
+Prior to Stanford, I completed my **M.A. in Computational Social Science** at **The University of Chicago**, advised by [Dr. James Evans](https://sociology.uchicago.edu/directory/james-evans). Together, we explored how Generative Agent-Based Modelling can be used to simulate psychological and social phenomena. Dr. Evans has profoundly influenced me in many dimensions: 
 he taught me to pursue bold ideas with confidence, support others generously, and carry a strong, decisive energy 
 into everything I do. I also learned the “gives a week, takes a week; gives a minute, 
 takes a minute” philosophy from him, which continues to guide how I approach research and life.
@@ -41,4 +38,5 @@ My research has since expanded through collaborations at **Microsoft Research As
 [Dr. Xing Xie](https://www.microsoft.com/en-us/research/people/xingx/), where we examine AI 
 alignment problems.  
 
-Across all my recent projects, I aim to build a *computational psychology of AI*: a framework that treats intelligent systems as evolving and active social participants that reflect and reshape human society.
+Across all my recent projects, I like to adopt a framework that treats intelligent 
+systems as evolving and active social participants that reflect and reshape human society.
