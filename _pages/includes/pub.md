@@ -13,17 +13,34 @@
 - Laurin, K., Engstrom, H., & **Huang, M.** (2024). What will my life be like when I'm 25? How social class predicts kids' answers to this question, and how their answers predict their futures. *Journal of Social Issues*. [https://doi.org/10.1111/josi.12650](https://doi.org/10.1111/josi.12650)
 
 ## Conference Presentations
-- Zhang, X., & **Huang, M.** (2026, June). Designing AI-agents for generating synthetic data for psychological research. *Canadian Psychological Association (CPA) Convention*, Montréal, Canada.
-- Falk, C. F., Zhang, X., Guenole, N., **Huang, M.**, & Li, W. (2026, June). Understanding silicon sampling through a psychometric lens. *Canadian Psychological Association (CPA) Convention*, Montréal, Canada.
-- Zhang, X., & **Huang, M.** (2026, July). Designing AI-agents for generating synthetic data for psychological research [Speed Talk]. *International Society for Data Science and Analytics (ISDSA) Meeting*, Beijing, China.
-- **Huang, M.**, Biedma, P., Yi, X., Huang, L., Sun, M., Evans, J., Xie, X. (2025, July). Beyond Anthropomorphism: Unveiling Unique Value Structure of Large Language Models (LLMs) via a Psychometric Approach. *11th International Conference on Computational Social Science (IC2S2)*, Norrköping, Sweden.
-- **Huang, M.** & Huang, N. (2025, August). Re-Discovering the Big Five: Using LLM Embeddings to Understand Personality Structure. *American Psychological Association (APA) Convention*, Denver, USA.
-- **Huang, M.** (2024, August). Designing LLM-Agents with Personalities: A Psychometric Approach [Poster]. *American Psychological Association (APA) Convention*, Seattle, USA.
-- Zhang, X., & **Huang, M.** (2025, June). Designing AI-agents with personalities using BFI-2 in different formats.
-- Zhang, X., **Huang, M.**, Sun, J., & Savalei, V. (2025, July). Designing AI-agents with personalities using BFI-2 in different formats.
-- **Huang, M.**, Zhang, X., & Savalei, V. (2023, August). How to measure Big Five personality traits better? Exploring alternative scale formats for BFI-2 [Poster]. *American Psychological Association (APA) Convention*, Washington, DC.
-- Savalei, V., & **Huang, M.** (2023, October). Can SEM Fit Indices Distinguish Between CFA and EFA Data Structures? [Paper]. *Annual Meeting of the Society for Multivariate Experimental Psychology (SMEP)*, Iowa City, Iowa.
-- Engstrom, H., **Huang, M.**, & Laurin, K. (2022, July). Social class differences in children's hopes and expectations for the future: A machine learning approach [Talk]. *Society in the classroom: Integrating perspectives on how socioeconomic disparities unfold in educational settings*, London, England.
-- Conati, C., Murali, R., & **Huang, M.** (2022, June). Gauging Student Engagement with an XAI interface via Eye-tracking [Paper]. *IJCAI 2022 Workshop on Explainable Artificial Intelligence*, 168.
-- Engstrom, H., **Huang, M.**, & Laurin, K. (2022, February). Different social class backgrounds, different imagined futures [Talk]. *2022 Society for Personality and Social Psychology (SPSP) Annual Convention*, San Francisco, CA.
-- **Huang, M.**, Engstrom, H., & Laurin, K. (2021, May). Exploring the Association between Socioeconomic Status and Children's Imagined Future: A Study Using Machine Learning [Poster]. *Association for Psychological Science (ASP) Annual Convention*.
+<sup>†</sup> first author / <sup>*</sup> solo
+
+- **Designing AI-Agents with Personalities: A Psychometric Approach**
+  - with X. Zhang: *Canadian Psychological Association (CPA) Convention*, Montréal, Canada (Jun 2026)
+  - with X. Zhang: *International Society for Data Science and Analytics (ISDSA) Meeting*, Beijing, China (Jul 2026, Speed Talk)
+  - <sup>*</sup> *American Psychological Association (APA) Convention*, Seattle, USA (Aug 2024, Poster)
+
+- **Improving the Measurement of the Big Five via Alternative Formats for the BFI-2**
+  - with X. Zhang: *Canadian Psychological Association (CPA) Convention*, Montréal, Canada (Jun 2026)
+  - with X. Zhang, J. Sun, V. Savalei: *International Meeting of the Psychometric Society (IMPS)*, Prague, Czech Republic (Jul 2025)
+  - <sup>†</sup> with X. Zhang, V. Savalei: *American Psychological Association (APA) Convention*, Washington, DC (Aug 2023, Poster)
+
+- <sup>†</sup> **Beyond Anthropomorphism: Unveiling Unique Value Structure of Large Language Models** (with P. Biedma, X. Yi, L. Huang, M. Sun, J. Evans, X. Xie)
+  - *11th International Conference on Computational Social Science (IC2S2)*, Norrköping, Sweden (Jul 2025)
+
+- <sup>†</sup> **Re-Discovering the Big Five: Using LLM Embeddings to Understand Personality Structure** (with N. Huang)
+  - *American Psychological Association (APA) Convention*, Denver, USA (Aug 2025)
+
+- **Understanding Silicon Sampling through a Psychometric Lens** (with C. F. Falk, X. Zhang, N. Guenole, W. Li)
+  - *Canadian Psychological Association (CPA) Convention*, Montréal, Canada (Jun 2026)
+
+- **Can SEM Fit Indices Distinguish Between CFA and EFA Data Structures?** (with V. Savalei)
+  - *Annual Meeting of the Society for Multivariate Experimental Psychology (SMEP)*, Iowa City, Iowa (Oct 2023)
+
+- **Social Class Differences in Children's Hopes and Expectations for the Future** (with H. Engstrom, K. Laurin)
+  - *Society in the Classroom* Symposium, London, England (Jul 2022, Talk)
+  - *Society for Personality and Social Psychology (SPSP) Annual Convention*, San Francisco, CA (Feb 2022, Talk)
+  - <sup>†</sup> *Association for Psychological Science (APS) Annual Convention* (May 2021, Poster)
+
+- **Gauging Student Engagement with an XAI Interface via Eye-tracking** (with C. Conati, R. Murali)
+  - *IJCAI 2022 Workshop on Explainable Artificial Intelligence* (Jun 2022)
