@@ -22,52 +22,59 @@
     pdfborder={0 0 0}
 }
 
-% Section formatting
+% Section formatting - clean small caps with refined rule
 \titleformat{\section}
-    {\normalfont\normalsize\bfseries\scshape}
-    {}{0em}{}[\titlerule]
-\titlespacing*{\section}{0pt}{12pt}{6pt}
+    {\normalfont\large\bfseries\scshape\color{linkblue}}
+    {}{0em}{}[\vspace{2pt}\titlerule]
+\titlespacing*{\section}{0pt}{14pt}{8pt}
 
 % Custom commands
 \newcommand{\myname}[1]{\uline{#1}}
 \newcommand{\dateright}[1]{\hfill #1}
 \newcommand{\institution}[1]{\textcolor{linkblue}{\textbf{#1}}}
+\newcommand{\project}[1]{\textbf{\textcolor{black!80}{#1}}}
+\newcommand{\advisor}[1]{\textit{Advisor: #1}}
 
 % Remove page numbers
 \pagenumbering{gobble}
 
 % Adjust list spacing
-\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
-\setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}
+\setlist[itemize]{leftmargin=1.5em, nosep, topsep=2pt, itemsep=2pt}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=2pt, itemsep=3pt}
 
 \begin{document}
 
 % Header
-\begin{flushright}
-\small Updated in Feb 2026
-\end{flushright}
-
-\vspace{-1.5em}
-
 \begin{center}
-{\LARGE\bfseries MUHUA (\begin{CJK}{UTF8}{gbsn}黄牧华\end{CJK}) HUANG}
-\hfill
-\begin{tabular}[t]{r}
-\href{mailto:muhua@stanford.edu}{muhua@stanford.edu} \\
-\href{https://muhua-h.github.io/}{https://muhua-h.github.io/}
-\end{tabular}
+{\LARGE\bfseries\scshape Muhua (\begin{CJK}{UTF8}{gbsn}黄牧华\end{CJK}) Huang}\\[0.4em]
+{\small\color{gray}
+\href{mailto:muhua@stanford.edu}{muhua@stanford.edu}
+\quad$\cdot$\quad
+\href{https://muhua-h.github.io/}{muhua-h.github.io}}
 \end{center}
 
-\vspace{0.5em}
+\vspace{0.3em}
+\begin{flushright}
+\footnotesize\textit{Updated February 2026}
+\end{flushright}
 
-\noindent\textbf{Research Interests:} Social Computing, Psychometrics, LLM, Generative AI, Societal AI, Human-AI Cooperation\\
-\textbf{Engineering:} High-Performance Computing (AWS, Azure), Relational Database, OOP, HCI, Algorithm Design\\
-\textbf{Quantitative:} LLM-Agent, Structural Equation Modelling, Factor Analysis, Regression, Ensemble Models, Neural Networks, Word Embedding, Fine Tuning, Validation and Evaluation, RAG
+\vspace{-0.5em}
+
+% Skills summary
+\begin{center}
+\begin{tabular}{@{}r@{\hspace{0.8em}}p{0.82\textwidth}@{}}
+\textsc{Research} & Social Computing, Psychometrics, LLM, Generative AI, Societal AI, Human-AI Cooperation \\[0.3em]
+\textsc{Engineering} & High-Performance Computing (AWS, Azure), Relational Database, OOP, HCI, Algorithm Design \\[0.3em]
+\textsc{Methods} & LLM-Agent, Structural Equation Modelling, Factor Analysis, Regression, Ensemble Models, Neural Networks, Word Embedding, Fine Tuning, Validation and Evaluation, RAG
+\end{tabular}
+\end{center}
+\vspace{0.3em}
+\noindent\textcolor{gray!40}{\rule{\textwidth}{0.4pt}}
 
 %----------------------------------------------------------------------------------------
 % EDUCATION
 %----------------------------------------------------------------------------------------
-\section*{E D U C A T I O N}
+\section*{Education}
 
 \noindent
 \begin{tabularx}{\textwidth}{Xr}
@@ -84,7 +91,7 @@
 %----------------------------------------------------------------------------------------
 % JOURNAL AND CONFERENCE PROCEEDINGS
 %----------------------------------------------------------------------------------------
-\section*{J O U R N A L \ \ A N D \ \ C O N F E R E N C E \ \ P R O C E E D I N G S}
+\section*{Publications}
 
 \begin{enumerate}[label={[\arabic*]}]
     \item \myname{Huang, M.}, \& Evans, J. (In Press). Institutions as cached computation for resource-rational negotiation. \textit{Behavioral and Brain Sciences}. \href{https://doi.org/10.1017/S0140525X2510174X}{https://doi.org/10.1017/S0140525X2510174X}
@@ -113,7 +120,7 @@
 %----------------------------------------------------------------------------------------
 % CONFERENCE PRESENTATIONS
 %----------------------------------------------------------------------------------------
-\section*{C O N F E R E N C E \ \ P R E S E N T A T I O N S}
+\section*{Conference Presentations}
 
 \noindent\textsuperscript{$\dagger$} first author / \textsuperscript{*} solo
 
@@ -168,7 +175,7 @@
 %----------------------------------------------------------------------------------------
 % INVITED TALKS
 %----------------------------------------------------------------------------------------
-\section*{I N V I T E D \ \ T A L K S}
+\section*{Invited Talks}
 
 \begin{enumerate}[label={[\arabic*]}]
     \item Yang, L., Sun, L., \myname{Huang, M.}, Wang, J., Jiang, R., \& Xu, F. (November 14, 2024). Panel discussion: LLM-driven social science and generative agents. \textit{2024 MSR Asia TAB Workshop: Shaping the Future with Societal AI}. Microsoft Research Asia, Beijing, China.
@@ -179,14 +186,14 @@
 %----------------------------------------------------------------------------------------
 % INTERNSHIP
 %----------------------------------------------------------------------------------------
-\section*{I N T E R N S H I P}
+\section*{Industry Experience}
 
 \noindent
 \begin{tabularx}{\textwidth}{Xr}
-\institution{[Microsoft Research Asia] Research Intern} & 2024.7 -- 2024.10 \\
+\institution{Microsoft Research Asia} --- Research Intern & 2024.7 -- 2024.10 \\
 \end{tabularx}
-\noindent Advisor: Dr. Xiaoyuan Yi, Dr. Xing Xie\\[0.3em]
-\textbf{[Python] On the Dynamics of LLMs' Values as A Community}
+\noindent \advisor{Dr. Xiaoyuan Yi, Dr. Xing Xie}\\[0.3em]
+\project{On the Dynamics of LLMs' Values as A Community}
 \begin{itemize}
     \item Engineered a scalable multi-agent system facilitating interactions among up to hundreds of AI agents, incorporating several cognitive modules, Retrieval-Augmented Generation (RAG), and parallel processing.
     \item Applied social science theories (e.g., Schwartz's Theory of Basic Values) as the theoretical frameworks to model and analyze the evolution of AI agents' values through social interactions.
@@ -198,14 +205,14 @@
 %----------------------------------------------------------------------------------------
 % RESEARCH EXPERIENCE
 %----------------------------------------------------------------------------------------
-\section*{R E S E A R C H \ \ E X P E R I E N C E}
+\section*{Research Experience}
 
 \noindent
 \begin{tabularx}{\textwidth}{Xr}
-\institution{[UChicago] Master's Thesis in LLM-Agent X Psychometrics} & 2023.9 -- 2024.6 \\
+\institution{University of Chicago} --- Master's Thesis & 2023.9 -- 2024.6 \\
 \end{tabularx}
-\noindent Advisor: Dr. James Evans\\[0.3em]
-\textbf{[Python] Designing LLM-Agents with Personalities: A Psychometric Approach}
+\noindent \advisor{Dr. James Evans}\\[0.3em]
+\project{Designing LLM-Agents with Personalities: A Psychometric Approach}
 \begin{itemize}
     \item Examined the embeddings of 5 Big-Five personality tests using OpenAI's large, contextualized embeddings, analyzed their convergent correlations, suggesting new paradigm as response-free psychometric test analysis.
     \item Investigated personality assignment strategies using real world data and parametric simulations, allowing controllable, fine-grained and replicable personality assignments to LLM-Agents.
@@ -218,16 +225,16 @@
 
 \noindent
 \begin{tabularx}{\textwidth}{Xr}
-\institution{[UBC] Research Assistant in Quantitative Psychology} & 2020.4 -- 2023.8 \\
+\institution{University of British Columbia} --- Research Assistant, Quantitative Psychology & 2020.4 -- 2023.8 \\
 \end{tabularx}
-\noindent Advisor: Dr. Victoria Savalei\\[0.3em]
-\textbf{[R] Exploring the Factor Structure of the Big Five Inventory-2 (BFI-2) in Alternative Scale Formats}
+\noindent \advisor{Dr. Victoria Savalei}\\[0.3em]
+\project{Exploring the Factor Structure of the BFI-2 in Alternative Scale Formats}
 \begin{itemize}
     \item Analyzed survey responses using Structural Equation Modeling (SEM) and compared the psychometric properties of four scale formats: Likert, Expanded, Item-Specific-Full, and Item-Specific-Light.
     \item Found that the Expanded format has the best reliability and model fit for BFI-2, followed by Item-Specific-Full, and Item-Specific-Light. All the alternative scales improved the psychometric properties compared to Likert scale.
     \item My honors thesis was nominated for multiple Canadian national undergraduate research awards (e.g., Belkin, CPA).
 \end{itemize}
-\textbf{[R] SEM Fit Indices' Sensitivity to Omitted Crossloadings in CFA}
+\project{SEM Fit Indices' Sensitivity to Omitted Crossloadings in CFA}
 \begin{itemize}
     \item Developed an R Shiny app to simulate experimental data and produce interactive visualizations.
     \item Examined the performance of fit indices across various conditions where CFA models are fit to EFA-like data.
@@ -239,10 +246,10 @@
 
 \noindent
 \begin{tabularx}{\textwidth}{Xr}
-\institution{[UBC] Research Assistant in Social Psychology} & 2020.8 -- 2021.9 \\
+\institution{University of British Columbia} --- Research Assistant, Social Psychology & 2020.8 -- 2021.9 \\
 \end{tabularx}
-\noindent Advisor: Dr. Kristin Laurin\\[0.3em]
-\textbf{[Python, R] Socioeconomics and Imagined Future Study}
+\noindent \advisor{Dr. Kristin Laurin}\\[0.3em]
+\project{Socioeconomics and Imagined Future Study}
 \begin{itemize}
     \item Analyzed over 10,000 essays and socioeconomic data using supervised and unsupervised ML and NLP algorithms, revealing insightful patterns of clearer and more substantiated future visions among wealthy youth.
     \item Supervised a group of 20 research assistants for data cleaning task and developed protocols, including a word distribution and performance tracking system, to provide technical support.
@@ -253,10 +260,10 @@
 
 \noindent
 \begin{tabularx}{\textwidth}{Xr}
-\institution{[UBC] Research Assistant in Human-Centered AI} & 2021.10 -- 2022.9 \\
+\institution{University of British Columbia} --- Research Assistant, Human-Centered AI & 2021.10 -- 2022.9 \\
 \end{tabularx}
-\noindent Advisor: Dr. Christina Conati\\[0.3em]
-\textbf{[R] Personalized Explainable AI for Intelligent Tutoring System Study}
+\noindent \advisor{Dr. Christina Conati}\\[0.3em]
+\project{Personalized Explainable AI for Intelligent Tutoring System Study}
 \begin{itemize}
     \item Evaluated a personalized explainable AI tutoring system by analyzing participants' eye-tracking data and their cognitive and personality data using a linear mixed model.
     \item Discovered that students with high perceptual speed spent a larger proportion of time on visual information.
@@ -266,7 +273,7 @@
 %----------------------------------------------------------------------------------------
 % WORK EXPERIENCE
 %----------------------------------------------------------------------------------------
-\section*{W O R K \ \ E X P E R I E N C E}
+\section*{Professional Experience}
 
 \noindent
 \begin{tabularx}{\textwidth}{Xr}
@@ -316,7 +323,7 @@
 %----------------------------------------------------------------------------------------
 % AWARDS & HONORS
 %----------------------------------------------------------------------------------------
-\section*{A W A R D S \ \ \& \ \ H O N O R S}
+\section*{Honors \& Awards}
 
 \noindent
 \begin{tabularx}{\textwidth}{Xr}
