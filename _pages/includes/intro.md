@@ -8,8 +8,8 @@
 </div>
 
 I am a PhD student in Organizational Behavior at the Stanford Graduate School of Business, broadly studying 
-culture, values, cognition and individual differences within the space of AI for Social Science. I am also a member of UChicago [Knowledge Lab](https://www.knowledgelab.org/) 
-and the [Stanford–Berkeley Computational Culture Lab](https://www.comp-culture.org/).
+culture, values, cognition and individual differences within the space of AI for Social Science. I am also member of
+ [Stanford–Berkeley Computational Culture Lab](https://www.comp-culture.org/) and a fellow of [International AI Evaluation Programme](https://ai-evaluation.org/programme).
 
 ---
 
