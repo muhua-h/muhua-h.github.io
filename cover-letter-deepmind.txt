@@ -1,0 +1,18 @@
+Dear Google DeepMind AI for Organizations Team,
+
+I'm an Organizational Behavior PhD student at Stanford GSB, with an MA in Computational Social Science from UChicago and a BA in Computer Science and Psychology from UBC. I'm applying for the Student Researcher position because the initiative's focus on AI transforming how people work, make decisions, and collaborate is exactly what I study.
+
+My research asks what happens when AI agents become participants in collective processes, not just tools.
+
+At Stanford with Douglas Guilbeault, I ran ~375K trials with GPT-4o agents in networks of 2 to 50, replicating a human category-formation experiment. AI collectives match human performance, but resolve ambiguity in systematically different places. We call this "representational relativity." For organizations, this means evaluating AI on behavioral metrics alone can be misleading, because the AI may categorize the world quite differently than the people it's working alongside.
+
+For my master's thesis at UChicago (published in Personality Science; Outstanding Thesis Award), I built the first psychometrically validated framework for giving LLM agents Big Five personality profiles. Personality predicts 38-52% of variance in how agents handle moral dilemmas, take risks, and cooperate. It's measurement infrastructure for designing AI collaborators whose behavioral tendencies you can actually specify and test.
+
+At Microsoft Research Asia (Outstanding Intern Award), I built a platform where hundreds of LLM agents form social networks and self-organize governance. Moderate value diversity fosters creativity and stability, while too much heterogeneity breaks things, directly informing how to compose effective human-AI teams.
+
+These connect to my commentary in Behavioral and Brain Sciences (in press), where I argue that institutions function as "cached computations" for collective negotiation, and that AI agents trained on institutional norms may rigidify or reinvent organizational decision-making.
+
+I do all of this end-to-end, from building multi-agent simulations to analyzing results with psychometrics, network analysis, and NLP. I'd love to bring this combination of organizational thinking and engineering to the initiative this summer.
+
+Sincerely,
+Muhua Huang

@@ -1,0 +1,320 @@
+\documentclass[11pt,letterpaper]{article}
+
+% Packages
+\usepackage[margin=0.6in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\usepackage{tabularx}
+\usepackage{ulem}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+\usepackage{microtype}
+\usepackage{xeCJK}
+\tolerance=1000
+\emergencystretch=1em
+\setCJKmainfont{Songti SC}[BoldFont=Songti SC Bold]
+
+% Colors
+\definecolor{linkblue}{RGB}{0,102,204}
+
+\newtcolorbox{statementbox}{
+    enhanced,
+    frame hidden,
+    colback=linkblue!5,
+    borderline west={2pt}{0pt}{linkblue},
+    boxrule=0pt,
+    left=6pt, right=6pt, top=3pt, bottom=3pt,
+    sharp corners
+}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkblue,
+    urlcolor=linkblue,
+    pdfborder={0 0 0}
+}
+
+% Section formatting - clean small caps with refined rule
+\titleformat{\section}
+    {\normalfont\large\scshape\color{linkblue}}
+    {}{0em}{}[\vspace{2pt}\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+% Custom commands
+\newcommand{\myname}[1]{\textbf{\uline{#1}}}
+\newcommand{\dateright}[1]{\hfill #1}
+\newcommand{\institution}[1]{\textcolor{linkblue}{\textbf{#1}}}
+\newcommand{\project}[1]{\textbf{\textcolor{black!80}{#1}}}
+\newcommand{\advisor}[1]{\textit{Advisor: #1}}
+
+% Remove page numbers
+\pagenumbering{gobble}
+
+% Adjust list spacing - standard academic CV indentation
+\setlist[itemize]{leftmargin=2em, nosep, topsep=3pt, itemsep=2pt}
+\setlist[enumerate]{leftmargin=2em, nosep, topsep=3pt, itemsep=3pt}
+
+\begin{document}
+
+% Updated date in top right corner
+\begin{flushright}
+\vspace{-1em}
+\footnotesize\textit{Updated March 2026}
+\end{flushright}
+
+\vspace{-1em}
+
+% Header
+\begin{center}
+{\LARGE\bfseries Muhua (黄牧华) Huang}\\[0.4em]
+{\small\color{gray}
+\href{mailto:muhua@stanford.edu}{muhua@stanford.edu}
+\quad$\cdot$\quad
+\href{https://muhua-h.github.io/}{muhua-h.github.io}}
+\end{center}
+
+\vspace{-0.3em}
+
+% Research statement
+\begin{statementbox}
+\noindent I study how AI systems fundamentally differ from \textbf{human intelligence} and how they, as \textbf{social actors}, reshape \textbf{collaboration} and \textbf{collective decision-making}. My research combines \textbf{computational social science}, \textbf{psychometrics}, and \textbf{generative agent-based modelling (GABM)} to investigate AI's unique cognitive characteristics, uncover new insights about human behavior from AI representations, and understand how AI agents alter \textbf{interaction dynamics} within \textbf{groups and organizations}.
+\end{statementbox}
+
+\vspace{0.5em}
+
+% Skills summary
+\noindent\textcolor{linkblue}{\textbf{Research:}} Human-AI Collaboration, Organizational Behavior, AI Alignment,
+Computational Social Science\\
+\noindent\textcolor{linkblue}{\textbf{Engineering:}} GABM, Large-Scale LLM
+Experimentation, Fine-tuning, Agent, High Performance Computing\\
+\noindent\textcolor{linkblue}{\textbf{Analytical:}} Psychometrics, Embedding Models, Social Network
+Analysis, ML/NLP, Behavioral Experiment
+
+%----------------------------------------------------------------------------------------
+% EDUCATION
+%----------------------------------------------------------------------------------------
+\section*{Education}
+
+\noindent
+\begin{tabularx}{\textwidth}{Xr}
+\institution{Stanford Graduate School of Business} & 2025.9 -- 2030.6 \\
+\quad PhD in Organizational Behavior & \\[0.5em]
+\institution{The University of Chicago} & 2023.9 -- 2025.6 \\
+\quad MA in Computational Social Science; GPA: 3.9/4.0 & \\[0.5em]
+\institution{The University of British Columbia (UBC)} & 2018.9 -- 2023.5 \\
+\quad BA in Computer Science \& Psychology (Honours); GPA: 4.2/4.3 & \\[0.5em]
+\institution{International AI Evaluation Programme Fellow} & 2026.1 -- 2026.5 \\[0.5em]
+\institution{Summer Institute in Computational Social Science (SICSS)} & 2024.6 -- 2024.7 \\[0.5em]
+\institution{Google Research Mentorship Program Scholar} & 2020.9 -- 2021.1 \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+% PUBLICATIONS
+%----------------------------------------------------------------------------------------
+\section*{Publications}
+
+\begin{enumerate}[label={[\arabic*]}]
+    \item \myname{Huang, M.}, Zhang, X., Soto, C., \& Evans, J. (2026). Designing AI-Agents with Personalities: A Psychometric Approach. \textit{Personality Science}. \href{https://doi.org/10.1177/27000710251406471}{DOI}
+
+    \item Zhang, X., \myname{Huang, M.}, Sun, J., \& Savalei, V. (2025). Improving the Measurement of the Big Five via Alternative Formats for the BFI-2. \textit{Journal of Personality Assessment}. \href{https://doi.org/10.1080/00223891.2025.2531187}{DOI}
+
+    \item Yao, J., Yi, X., Duan, S., Wang, J., Bai, Y., \myname{Huang, M.}, \ldots \& Xie, X. (2025). Value compass benchmarks: A comprehensive, generative and self-evolving platform for LLMs' value evaluation. \textit{Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics}. \href{https://doi.org/10.18653/v1/2025.acl-demo.64}{DOI}
+
+    \item Kim, H., Yi, X., Bak, J., Yao, J., Lian, J., \myname{Huang, M.}, Duan, S., \& Xie, X. (2025). The Road to Artificial SuperIntelligence: A Comprehensive Survey of Superalignment. \textit{SuperIntelligence - Robotics - Safety \& Alignment}, 2(1). \href{https://doi.org/10.70777/si.v2i1.13963}{DOI}
+
+    \item Savalei, V., \& \myname{Huang, M.} (2025). Fit Indices Are Insensitive to Multiple Minor Violations of Perfect Simple Structure in Confirmatory Factor Analysis. \textit{Psychological Methods}. \href{https://dx.doi.org/10.1037/met0000718}{DOI}
+
+    \item Laurin, K., Engstrom, H., \& \myname{Huang, M.} (2024). What will my life be like when I'm 25? How social class predicts kids' answers to this question, and how their answers predict their futures. \textit{Journal of Social Issues}. \href{https://doi.org/10.1111/josi.12650}{DOI}
+\end{enumerate}
+
+%----------------------------------------------------------------------------------------
+% WORKING PAPERS
+%----------------------------------------------------------------------------------------
+\section*{Working Papers}
+
+\begin{enumerate}[label={[\arabic*]}]
+    \item \myname{Huang, M.}, \& Guilbeault, D. (In Prep). AI as Alien Intelligence: Shared Vocabulary Masks Divergent Category Systems in Human and AI Collectives. \textit{Manuscript available upon request.}
+
+    \item \myname{Huang, M.}, \& Evans, J. (In Press). Institutions as cached computation for resource-rational negotiation. \textit{Behavioral and Brain Sciences}. \href{https://doi.org/10.1017/S0140525X2510174X}{DOI}
+
+    \item Bai, Y., Duan, S., \myname{Huang, M.}, Yao, J., Liu, Z., Zhang, P., \ldots \& Xie, X. (Under Review). IROTE: Human-like Traits Elicitation of Large Language Model via In-Context Self-Reflective Optimization. [\href{https://arxiv.org/abs/2508.08719}{Preprint}]
+
+    \item Zhang, H., \myname{Huang, M.}, \& Wang, J. (Under Review). Evolving Collective Cognition in Human-Agent Hybrid Societies: How Agents Form Stances and Boundaries. [\href{https://arxiv.org/abs/2508.17366}{Preprint}]
+
+    \item Kim, H., Yi, X., Yao, J., \myname{Huang, M.}, Bak, J., Evans, J., \& Xie, X. (2025). Research on Superalignment Should Advance Now with Parallel Optimization of Competence and Conformity. [\href{https://arxiv.org/abs/2503.07660}{Preprint}]
+
+\end{enumerate}
+
+%----------------------------------------------------------------------------------------
+% CONFERENCE PRESENTATIONS
+%----------------------------------------------------------------------------------------
+\section*{Conference Presentations}
+
+\noindent\textsuperscript{$\dagger$} first author / \textsuperscript{*} solo
+
+\vspace{0.3em}
+\begin{itemize}[itemsep=4pt]
+    \item \textsuperscript{*} \textbf{Designing AI-Agents with Personalities: A Psychometric Approach}\\
+    {\scriptsize \textit{APA}, Seattle (Aug 2024, Poster); \textit{CPA}, Montréal (Jun 2026, w/ X. Zhang); \textit{ISDSA}, Beijing (Jul 2026, Speed Talk, w/ X. Zhang)}
+    \item \textsuperscript{$\dagger$} \textbf{Beyond Anthropomorphism: Unveiling Unique Value Structure of Large Language Models} (w/ P. Biedma, X. Yi, L. Huang, M. Sun, J. Evans, X. Xie)\\
+    {\scriptsize \textit{IC2S2}, Norrköping (Jul 2025)}
+    \item \textsuperscript{$\dagger$} \textbf{Re-Discovering the Big Five: Using LLM Embeddings to Understand Personality Structure} (w/ N. Huang)\\
+    {\scriptsize \textit{APA}, Denver (Aug 2025)}
+    \item \textsuperscript{$\dagger$} \textbf{Improving the Measurement of the Big Five via Alternative Formats for the BFI-2} (w/ X. Zhang, V. Savalei)\\
+    {\scriptsize \textit{APA}, Washington DC (Aug 2023, Poster); \textit{IMPS}, Prague (Jul 2025, w/ J. Sun); \textit{CPA}, Montréal (Jun 2026)}
+    \item \textsuperscript{$\dagger$} \textbf{Social Class Differences in Children's Hopes and Expectations for the Future} (w/ H. Engstrom, K. Laurin)\\
+    {\scriptsize \textit{APS} (May 2021, Poster); \textit{SPSP}, San Francisco (Feb 2022, Talk); \textit{Society in the Classroom}, London (Jul 2022, Talk)}
+    \item \textbf{Understanding Silicon Sampling through a Psychometric Lens} (w/ C. F. Falk, X. Zhang, N. Guenole, W. Li)\\
+    {\scriptsize \textit{CPA}, Montréal (Jun 2026)}
+    \item \textbf{Can SEM Fit Indices Distinguish Between CFA and EFA Data Structures?} (w/ V. Savalei)\\
+    {\scriptsize \textit{SMEP}, Iowa City (Oct 2023)}
+    \item \textbf{Gauging Student Engagement with an XAI Interface via Eye-tracking} (w/ C. Conati, R. Murali)\\
+    {\scriptsize \textit{IJCAI Workshop on XAI} (Jun 2022)}
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+% INVITED TALKS
+%----------------------------------------------------------------------------------------
+\section*{Invited Talks}
+
+\begin{enumerate}[label={[\arabic*]}]
+    \item Yang, L., Sun, L., \myname{Huang, M.}, Wang, J., Jiang, R., \& Xu, F. (November 14, 2024). Panel discussion: LLM-driven social science and generative agents. \textit{2024 MSR Asia TAB Workshop: Shaping the Future with Societal AI}. Microsoft Research Asia, Beijing, China.
+
+    \item \myname{Huang, M.} (January 13, 2025). Designing LLM-agents with personalities: A psychometric approach. Invited talk at the \textit{Quantitative Methods Forum}, York University, Toronto, Canada.
+\end{enumerate}
+
+%----------------------------------------------------------------------------------------
+% INTERNSHIP
+%----------------------------------------------------------------------------------------
+\section*{Industry Experience}
+
+\noindent\textbf{Research Intern} $|$ Microsoft Research Asia \hfill 2024.7 -- 2024.10\\
+\noindent\advisor{Dr. Xiaoyuan Yi, Dr. Xing Xie}\\[0.3em]
+%\noindent\project{On the Dynamics of LLMs' Values as A Community}
+\begin{itemize}
+    \item Built a multi-agent simulation platform where hundreds of LLM agents interact, form social networks, and self-organize governance structures (e.g., constitutions) without external guidance.
+    \item Grounded agent behavior in Schwartz's Theory of Basic Values and used Social Network Analysis to trace how value-diverse communities form, evolve, and stabilize over time.
+    \item Discovered that moderate value diversity fosters creativity and stability in agent communities, while extreme heterogeneity induces instability --- with implications for designing diverse human-AI teams.
+    \item Investigated social emergence (unique language, cultural practices, institutions) in agent communities using GraphRAG and NLP.
+    \item Contributed to interdisciplinary projects on AI values and alignment, including LLM value evaluation benchmarks (ACL 2025), psychometrically grounded trait elicitation, and a survey of superalignment.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+% RESEARCH EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section*{Research Experience}
+
+\noindent\textbf{PhD Student Researcher} $|$ Stanford Graduate School of Business \hfill 2025.10 -- Present\\
+\noindent\advisor{Dr. Douglas Guilbeault}\\[0.3em]
+\noindent\project{AI as Alien Intelligence: Shared Vocabulary Masks Divergent Category Systems in Human and AI Collectives}
+\begin{itemize}
+    \item Engineered a large-scale multi-agent coordination experiment ($\sim$375,000 AI trials with GPT-4o agents in network structures of $N$=2 to 50), replicating a human category-formation paradigm.
+    \item Discovered ``representational relativity'': despite comparable behavioral performance, human and AI collectives resolve ambiguity in systematically different places ($r = -0.130$, $p < 0.001$).
+    \item Showed AI labels are disproportionately visual-dominant and concrete, while human labels draw on richer multimodal experience --- divergence driven by grounding modality, not training data.
+    \item Found that AI agents strategically invent novel vocabulary to express distinctions human language cannot; forcing AI to use only human labels reduces performance by 12.7\%.
+\end{itemize}
+
+\vspace{0.5em}
+
+\noindent\textbf{Master's Thesis} $|$ University of Chicago \hfill 2023.9 -- 2024.6\\
+\noindent\advisor{Dr. James Evans}\\[0.3em]
+\noindent\project{Designing LLM-Agents with Personalities: A Psychometric Approach}
+\begin{itemize}
+    \item Developed the first psychometrically validated framework for assigning Big Five personalities to LLM agents, with controllable, fine-grained design across multiple models (GPT-3.5, GPT-4, Claude 3).
+    \item Validated that personality-assigned agents exhibit predictable behavioral differences in moral reasoning, risk-taking, and cooperation (personality explains 38--52\% of variance in agent decisions).
+    \item Collected data from 350 human participants for direct human--agent comparison, demonstrating potential for using personality-designed agents in behavioral research.
+    \item Published in \textit{Personality Science}; methodology enables designing AI agents for specific collaborative roles.
+\end{itemize}
+
+\vspace{0.5em}
+
+\noindent\textbf{Research Assistant, Quantitative Psychology} $|$ University of British Columbia \hfill 2020.4 -- 2023.8\\
+\noindent\advisor{Dr. Victoria Savalei}\\[0.3em]
+\noindent\project{Exploring the Factor Structure of the BFI-2 in Alternative Scale Formats}
+\begin{itemize}
+    \item Compared four personality scale formats using SEM; found that alternative formats (Expanded, Item-Specific) significantly improve reliability and model fit over Likert. Published in \textit{Journal of Personality Assessment}.
+    \item Honours thesis nominated for multiple Canadian national undergraduate research awards (Belkin, CPA).
+\end{itemize}
+\noindent\project{SEM Fit Indices' Sensitivity to Omitted Crossloadings in CFA}
+\begin{itemize}
+    \item Built an R Shiny simulation app to examine fit index performance when CFA models are applied to data with EFA-like structure; contributed to manuscript published in \textit{Psychological Methods}.
+\end{itemize}
+
+\vspace{0.5em}
+
+\noindent\textbf{Research Assistant, Social Psychology} $|$ University of British Columbia \hfill 2020.8 -- 2021.9\\
+\noindent\advisor{Dr. Kristin Laurin}\\[0.3em]
+\noindent\project{Socioeconomics and Imagined Future Study}
+\begin{itemize}
+    \item Applied ML (Random Forest, Neural Network) and NLP (Topic Modelling, LSTM, Word2Vec) to analyze 10,000+ youth essays, revealing how socioeconomic background shapes imagined futures. Published in \textit{Journal of Social Issues}.
+    \item Supervised 20 research assistants and built data processing protocols including a word distribution and performance tracking system.
+\end{itemize}
+
+\vspace{0.5em}
+
+\noindent\textbf{Research Assistant, Human-Centered AI} $|$ University of British Columbia \hfill 2021.10 -- 2022.9\\
+\noindent\advisor{Dr. Christina Conati}\\[0.3em]
+\noindent\project{Personalized Explainable AI for Intelligent Tutoring System Study}
+\begin{itemize}
+    \item Evaluated how personalizing AI explanations to individual cognitive profiles (perceptual speed, personality) affects learning outcomes, using eye-tracking and linear mixed models.
+    \item Found that tailoring AI tutoring interfaces to users' cognitive abilities improves engagement and effectiveness --- demonstrating the value of adaptive human-AI interaction design.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+% WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section*{Professional Experience}
+
+\noindent\textbf{Computational Social Science Workshop Coordinator} $|$ University of Chicago \hfill 2024.10 -- 2025.6
+\begin{itemize}
+    \item Organized the weekly MACSS Computational Social Science Workshop, featuring speakers on advanced computational methods and interdisciplinary research.
+\end{itemize}
+
+\vspace{0.5em}
+
+\noindent\textbf{Deep Learning Textbook Editor} $|$ University of Chicago \hfill 2023.10 -- 2024.10
+\begin{itemize}
+    \item Proofread and edited ``Thinking with Deep Learning'' by Dr. James Evans; designed LaTeX templates for the textbook and for Journal of Social Computing.
+\end{itemize}
+
+\vspace{0.5em}
+
+\noindent\textbf{Teaching Assistant} $|$ University of British Columbia \hfill 2021.01 -- 2022.12
+\begin{itemize}
+    \item TA for Human Computer Interaction Methods and Systematic Program Design; rated 4.7/5 by students and received three return offers.
+\end{itemize}
+
+\vspace{0.5em}
+
+\noindent\textbf{Crisis Respondent} $|$ Kids Help Phone \hfill 2019.09 -- 2020.08
+\begin{itemize}
+    \item Provided over 230 hours of crisis counselling to 550+ individuals in severe mental distress.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+% AWARDS & HONORS
+%----------------------------------------------------------------------------------------
+\section*{Honors \& Awards}
+
+\noindent
+\begin{tabularx}{\textwidth}{Xr}
+Stanford Graduate School of Business Doctoral Fellowship & 2025 -- 2030 \\
+Stanford University EDGE Doctoral Fellowship (\$12,800) & 2025 \\
+UChicago Outstanding Thesis Award (\$1,000) & 2025 \\
+Microsoft Research Asia Outstanding Intern Award (Stars of Tomorrow Certificate) & 2024 \\
+OpenAI Researcher Access Program (\$3,500) & 2024 \\
+SICSS-Beijing Merit Based Scholarship (¥3,600) & 2024 \\
+UChicago Computational Social Science Research Poster Competition (Honorable Mention, 2\textsuperscript{nd} Place) & 2024 \\
+UChicago Quadrangle Research Scholarship (\$80,000) & 2023, 2024 \\
+UChicago Social Sciences Promise \& Merit Scholarship (\$10,000) & 2023, 2024 \\
+Quinn Research Assistantship Award (\$8,300) & 2021 \\
+UBC International Community Achievement Award (\$5,000) & 2021 \\
+UBC Trek Excellence Scholarship (\$2,000) & 2019, 2020 \\
+UBC Faculty of Arts International Student Scholarship (\$8,800) & 2019, 2020, 2022 \\
+\end{tabularx}
+
+\end{document}

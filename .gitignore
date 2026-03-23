@@ -2,3 +2,14 @@ _site/
 push.sh
 .DS_Store
 .idea/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+out/
+
+# Superseded drafts
+CV-Muhua-Huang-tailored.*
+CV-TAILORING-PLAN.md
+cover-letter-deepmind.tex
