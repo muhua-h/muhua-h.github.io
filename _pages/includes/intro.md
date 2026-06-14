@@ -3,11 +3,14 @@
     <h1>TL;DR</h1>
   </div>
   <div class="last-updated-top">
-    <small><em>Last updated: Feb 2026</em></small>
+    <small><em>Last updated: June 2026</em></small>
   </div>
 </div>
 
-I am a PhD student in Organizational Behavior at the Stanford Graduate School of Business, broadly studying 
+I am a PhD student in Organizational Behavior at the Stanford Graduate School of Business, advised by
+Professor [Douglas Guilbeault](https://www.gsb.stanford.edu/faculty-research/faculty/douglas-r-guilbeault) and 
+Professor [Michele Gelfand](https://www.michelegelfand.com/), broadly 
+studying 
 culture, values, cognition and individual differences within the space of AI for Social Science. I am also member of
  [Stanford–Berkeley Computational Culture Lab](https://www.comp-culture.org/) and a fellow of [International AI Evaluation Programme](https://ai-evaluation.org/programme).
 
@@ -20,9 +23,7 @@ I am intrigued by big questions about humans, society, and AI:
 - How do AI systems, as social actors, challenge and alter the current interaction dynamic and power structure? 
 
 Prior to Stanford, I completed my **M.A. in Computational Social Science** at **The University of Chicago**, advised by [Dr. James Evans](https://sociology.uchicago.edu/directory/james-evans). Together, we explored how Generative Agent-Based Modelling can be used to simulate psychological and social phenomena. Dr. Evans has profoundly influenced me in many dimensions: 
-he taught me to pursue bold ideas with confidence, support others generously, and carry a strong, decisive energy 
-into everything I do. I also learned the “gives a week, takes a week; gives a minute, 
-takes a minute” philosophy from him, which continues to guide how I approach research and life.
+he taught me to pursue bold ideas with confidence, support others generously, and carry a strong, decisive energy into everything I do. 
 
 Before that, I earned my **B.A. in Computer Science and Psychology (Honours)** from **The University of 
 British Columbia**, where I was fortunate to be mentored by [Dr. Victoria Savalei](https://psych.ubc.ca/profile/victoria-savalei/), 

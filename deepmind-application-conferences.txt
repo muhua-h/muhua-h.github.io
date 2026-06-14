@@ -1,0 +1,14 @@
+Publications:
+- Huang, M., Zhang, X., Soto, C., & Evans, J. (2026). Designing AI-Agents with Personalities: A Psychometric Approach. Personality Science. (First psychometrically validated framework for assigning Big Five personalities to LLM agents.)
+- Bai, Y., Duan, S., Huang, M., et al. (2026). IROTE: Human-like Traits Elicitation of LLMs via In-Context Self-Reflective Optimization. AAAI 2026.
+- Yao, J., Yi, X., ..., Huang, M., et al. (2025). Value Compass Benchmarks. ACL 2025.
+- Huang, M., & Evans, J. (In Press). Institutions as cached computation for resource-rational negotiation. Behavioral and Brain Sciences.
+
+Working Papers:
+- Huang, M., & Guilbeault, D. (In Prep). AI as Alien Intelligence: Shared Vocabulary Masks Divergent Category Systems in Human and AI Collectives. (~375K multi-agent trials studying representational divergence between human and AI collectives.)
+- Zhang, H., Huang, M., & Wang, J. (Under Review). Computational Multi-Agents Society Experiments: Social Modeling Framework Based on Generative Agents.
+
+Conferences:
+- Presenting "Designing AI-Agents with Personalities" at CPA, Montréal (Jun 2026) and ISDSA, Beijing (Jul 2026, Speed Talk).
+- Presented "Beyond Anthropomorphism: Unveiling Unique Value Structure of Large Language Models" at IC2S2, Norrköping (Jul 2025).
+- Presented "Re-Discovering the Big Five: Using LLM Embeddings to Understand Personality Structure" at APA, Denver (Aug 2025).
