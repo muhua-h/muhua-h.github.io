@@ -12,8 +12,8 @@
     "research-focus-title": "tab-overview",
     "about-me": "tab-overview",
     "publications": "tab-publications",
-    "education": "tab-experience",
-    "internships": "tab-experience",
+    "education": "tab-education",
+    "internships": "tab-internships",
     "honors-awards": "tab-honors"
   };
 

@@ -1,4 +1,4 @@
-<section class="tab-panel" id="panel-experience" role="tabpanel" aria-labelledby="tab-experience" markdown="1">
+<section class="tab-panel" id="panel-education" role="tabpanel" aria-labelledby="tab-education" markdown="1">
 # Education
 {: #education}
 <div class="education-item">
@@ -49,7 +49,9 @@
   </div>
   <div class="education-date">2021</div>
 </div>
+</section>
 
+<section class="tab-panel" id="panel-internships" role="tabpanel" aria-labelledby="tab-internships" markdown="1">
 # Internships
 {: #internships}
 
