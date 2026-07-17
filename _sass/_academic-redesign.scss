@@ -336,13 +336,16 @@ button:focus-visible {
 
 .author__bio > .institution-logo {
   display: block;
-  width: 100%;
+  width: 68%;
+  max-width: 145px;
   margin: 0;
-  padding: 0.7rem;
+  padding: 0.42rem 0.52rem;
   border: 0;
-  border-radius: 10px;
-  background: rgba(255, 253, 247, 0.95);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.82);
   box-shadow: none;
+  opacity: 0.78;
+  filter: saturate(0.72);
 }
 
 .author__bio > .institution-logo img {
@@ -383,40 +386,16 @@ button:focus-visible {
 }
 
 .author__urls .author__description {
-  display: grid;
-  gap: 0.16rem;
   margin-bottom: 0.45rem;
   padding: 0.2rem 0.55rem 0.9rem;
-  color: rgba(255, 255, 255, 0.74);
+  color: rgba(255, 255, 255, 0.82);
   border-bottom: 1px solid rgba(175, 252, 254, 0.18);
-  font-size: 0.76rem;
+  font-size: 0.78rem;
   line-height: 1.55;
 }
 
 .author__description div {
   white-space: normal;
-}
-
-.author__description strong {
-  color: #fff;
-  font-size: 0.88rem;
-  font-weight: 600;
-  line-height: 1.35;
-}
-
-.author__eyebrow {
-  margin-bottom: 0.12rem;
-  color: var(--terracotta);
-  font-size: 0.62rem;
-  font-weight: 600;
-  letter-spacing: 0.13em;
-  text-transform: uppercase;
-}
-
-.author__current-role {
-  margin-top: 0.35rem;
-  color: var(--aqua);
-  font-weight: 500;
 }
 
 .author__urls a,
@@ -457,16 +436,16 @@ button:focus-visible {
   height: 1.55rem;
   margin-right: 0.38rem;
   place-items: center;
-  color: var(--aqua);
+  color: var(--forest-deep);
   border-radius: 7px;
-  background: rgba(175, 252, 254, 0.1);
+  background: var(--aqua);
   line-height: 1.55rem;
   transition: color 0.2s ease, background-color 0.2s ease;
 }
 
 .profile_box .author__urls a:hover i {
-  color: var(--terracotta);
-  background: rgba(226, 131, 80, 0.14);
+  color: var(--forest-deep);
+  background: var(--terracotta);
 }
 
 .author__urls_sm {

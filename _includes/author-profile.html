@@ -16,13 +16,8 @@
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
-      {% if author.headline %}
-        <li class="author__description">
-          <span class="author__eyebrow">Currently</span>
-          <strong>{{ author.headline }}</strong>
-          {% if author.affiliation %}<span>{{ author.affiliation }}</span>{% endif %}
-          {% if author.current_role %}<span class="author__current-role">{{ author.current_role }}</span>{% endif %}
-        </li>
+      {% if author.tagline %}
+        <li class="author__description"><div>{{ author.tagline }}</div></li>
       {% elsif site.description %}
         <li class="author__description"><div>{{ site.description }}</div></li>
       {% endif %}
