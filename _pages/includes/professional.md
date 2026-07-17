@@ -27,8 +27,8 @@
 
 <div class="education-item">
   <div class="education-content">
-    <strong>The University of British Columbia</strong>
-    <div class="education-details">Teaching Assistant</div>
+    <strong>Teaching Assistant</strong>
+    <div class="education-details">The University of British Columbia</div>
     <ul class="education-course-list">
       <li>Human-Computer Interaction Methods</li>
       <li>Systematic Program Design</li>
@@ -40,8 +40,8 @@
 
 <div class="education-item">
   <div class="education-content">
-    <strong>The University of Chicago</strong>
-    <div class="education-details">Computational Social Science Workshop Coordinator</div>
+    <strong>Computational Social Science Workshop Coordinator</strong>
+    <div class="education-details">The University of Chicago</div>
     <div class="education-details">Coordinated the weekly Computational Social Science Workshop.</div>
   </div>
   <div class="education-date">2024.10 - 2025.06</div>
@@ -49,8 +49,8 @@
 
 <div class="education-item">
   <div class="education-content">
-    <strong>The University of Chicago</strong>
-    <div class="education-details">Deep Learning Textbook Editor</div>
+    <strong>Deep Learning Textbook Editor</strong>
+    <div class="education-details">The University of Chicago</div>
     <div class="education-details">Edited <em>Thinking with Deep Learning</em> and designed LaTeX templates.</div>
   </div>
   <div class="education-date">2023.10 - 2024.10</div>
@@ -61,8 +61,8 @@
 
 <div class="education-item">
   <div class="education-content">
-    <strong>Kids Help Phone</strong>
-    <div class="education-details">Crisis Respondent</div>
+    <strong>Crisis Respondent</strong>
+    <div class="education-details">Kids Help Phone</div>
     <div class="education-details">Completed crisis-intervention training and supported 550+ people over 230+ volunteer hours.</div>
   </div>
   <div class="education-date">2019.09 - 2020.08</div>
