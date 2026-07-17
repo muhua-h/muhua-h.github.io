@@ -2,8 +2,6 @@
 ## Journal and Conference Proceedings
 - **Huang, M.**, & Evans, J. (2026). Institutions as cached computation for resource-rational negotiation. *Behavioral and Brain Sciences, 49*, e144. [https://doi.org/10.1017/S0140525X2510174X](https://doi.org/10.1017/S0140525X2510174X)
 - Bai, Y., Duan, S., **Huang, M.**, Yao, J., Liu, Z., Zhang, P., ... & Xie, X. (2026). IROTE: Human-like Traits Elicitation of Large Language Model via In-Context Self-Reflective Optimization. *Proceedings of the AAAI Conference on Artificial Intelligence, 40*(36), 30040–30048. [https://doi.org/10.1609/aaai.v40i36.40252](https://doi.org/10.1609/aaai.v40i36.40252)
-- Zhang, H., **Huang, M.**, & Wang, J. (2025). Evolving Collective Cognition in Human-Agent Hybrid Societies: How Agents Form Stances and Boundaries. [[Preprint]](https://arxiv.org/abs/2508.17366)
-- **Huang, M.**, Zhao, Q., Yi, X., & Xie, X. (2025). On the Dynamics of Multi-Agent LLM Communities Driven by Value Diversity. [[Preprint]](https://arxiv.org/abs/2512.10665)
 - Kim, H., Yi, X., Yao, J., **Huang, M.**, Bak, J., Evans, J., & Xie, X. (2025). Research on Superalignment Should Advance Now with Parallel Optimization of Competence and Conformity. [[Preprint]](https://arxiv.org/abs/2503.07660)
 - **Huang, M.**, Zhang, X., Soto, C., & Evans, J. (2026). Designing AI-Agents With Personalities: A Psychometric Approach. *Personality Science, 7*. [https://doi.org/10.1177/27000710251406471](https://doi.org/10.1177/27000710251406471)
 - Zhang, X., **Huang, M.**, Sun, J., & Savalei, V. (2026). Improving the Measurement of the Big Five via Alternative Formats for the BFI-2. *Journal of Personality Assessment, 108*(2), 250–271. [https://doi.org/10.1080/00223891.2025.2531187](https://doi.org/10.1080/00223891.2025.2531187)
