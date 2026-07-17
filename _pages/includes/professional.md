@@ -22,16 +22,38 @@
   <div class="education-date">2024.07 - 2024.10</div>
 </div>
 
-## Teaching (TA-ship)
+## Teaching & Academic Service
 {: #teaching}
 
 <div class="education-item">
   <div class="education-content">
     <strong>The University of British Columbia</strong>
     <div class="education-details">Teaching Assistant</div>
-    <div class="education-details">Human-Computer Interaction Methods and Systematic Program Design</div>
+    <ul class="education-course-list">
+      <li>Human-Computer Interaction Methods</li>
+      <li>Systematic Program Design</li>
+      <li>Introduction to Systematic Program Design</li>
+    </ul>
   </div>
   <div class="education-date">2021.01 - 2022.12</div>
+</div>
+
+<div class="education-item">
+  <div class="education-content">
+    <strong>The University of Chicago</strong>
+    <div class="education-details">Computational Social Science Workshop Coordinator</div>
+    <div class="education-details">Coordinated the weekly Computational Social Science Workshop.</div>
+  </div>
+  <div class="education-date">2024.10 - 2025.06</div>
+</div>
+
+<div class="education-item">
+  <div class="education-content">
+    <strong>The University of Chicago</strong>
+    <div class="education-details">Deep Learning Textbook Editor</div>
+    <div class="education-details">Edited <em>Thinking with Deep Learning</em> and designed LaTeX templates.</div>
+  </div>
+  <div class="education-date">2023.10 - 2024.10</div>
 </div>
 
 ## Volunteer
