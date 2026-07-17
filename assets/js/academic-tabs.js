@@ -13,7 +13,10 @@
     "about-me": "tab-overview",
     "publications": "tab-publications",
     "education": "tab-education",
-    "internships": "tab-internships",
+    "professional": "tab-professional",
+    "internships": "tab-professional",
+    "teaching": "tab-professional",
+    "volunteer": "tab-professional",
     "honors-awards": "tab-honors"
   };
 
