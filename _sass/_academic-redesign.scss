@@ -314,11 +314,15 @@ button:focus-visible {
   white-space: normal;
 }
 
-.author__urls li:first-child {
+.author__urls .author__description {
   margin-bottom: 0.25rem;
   color: rgba(255, 255, 255, 0.74);
   font-size: 0.76rem;
   line-height: 1.55;
+}
+
+.author__description div {
+  white-space: normal;
 }
 
 .author__urls a,
@@ -800,7 +804,7 @@ button:focus-visible {
     grid-column: 2;
   }
 
-  .author__urls li:first-child {
+  .author__urls .author__description {
     display: none;
   }
 
