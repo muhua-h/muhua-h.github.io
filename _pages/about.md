@@ -16,10 +16,12 @@ redirect_from:
   <button class="section-tab" id="tab-honors" type="button" role="tab" aria-selected="false" aria-controls="panel-honors" tabindex="-1" data-tab-target="panel-honors" data-tab-hash="honors-awards">Honors</button>
 </div>
 
-{% include_relative includes/intro.md %}
+{% include_relative includes/overview.md %}
 
-{% include_relative includes/pub.md %}
+{% include_relative includes/publications.md %}
 
-{% include_relative includes/others.md %}
+{% include_relative includes/education.md %}
+
+{% include_relative includes/internships.md %}
 
 {% include_relative includes/honors.md %}
