@@ -1,3 +1,4 @@
+<section class="tab-panel" id="panel-publications" role="tabpanel" aria-labelledby="tab-publications" markdown="1">
 # Publications
 {: #publications}
 ## Journal and Conference Proceedings
@@ -45,3 +46,4 @@
 - **Gauging Student Engagement with an XAI Interface via Eye-tracking** (with C. Conati, R. Murali)
   - *IJCAI 2022 Workshop on Explainable Artificial Intelligence* (Jun 2022)
 {: .presentation-list}
+</section>

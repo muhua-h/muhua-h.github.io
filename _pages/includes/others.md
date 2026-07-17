@@ -1,3 +1,4 @@
+<section class="tab-panel" id="panel-experience" role="tabpanel" aria-labelledby="tab-experience" markdown="1">
 # Education
 {: #education}
 <div class="education-item">
@@ -66,3 +67,4 @@
   </div>
   <div class="education-date">2024.07 - 2024.10</div>
 </div>
+</section>

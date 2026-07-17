@@ -1,3 +1,4 @@
+<section class="tab-panel" id="panel-overview" role="tabpanel" aria-labelledby="tab-overview" markdown="1">
 <section class="research-hero" aria-labelledby="research-focus-title">
   <div class="research-hero__topline">
     <span>AI × Social Science</span>
@@ -53,3 +54,4 @@ alignment problems.
 
 Across all my recent projects, I like to adopt a framework that treats intelligent 
 systems as evolving and active social participants that reflect and reshape human society.
+</section>

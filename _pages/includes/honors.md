@@ -1,3 +1,4 @@
+<section class="tab-panel" id="panel-honors" role="tabpanel" aria-labelledby="tab-honors" markdown="1">
 # Honors & Awards
 {: #honors-awards}
 
@@ -91,3 +92,4 @@
   </div>
   <div class="education-date">2019, 2020, 2022</div>
 </div>
+</section>
