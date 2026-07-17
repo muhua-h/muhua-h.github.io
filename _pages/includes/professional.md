@@ -28,7 +28,12 @@
 <div class="education-item">
   <div class="education-content">
     <strong>Teaching Assistant</strong>
-    <div class="education-details">The University of British Columbia · Human-Computer Interaction Methods; Systematic Program Design; Introduction to Systematic Program Design</div>
+    <div class="education-details">The University of British Columbia</div>
+    <ul class="education-course-list">
+      <li>Human-Computer Interaction Methods</li>
+      <li>Systematic Program Design</li>
+      <li>Introduction to Systematic Program Design</li>
+    </ul>
   </div>
   <div class="education-date">2021.01 - 2022.12</div>
 </div>
@@ -54,9 +59,8 @@
 
 <div class="education-item">
   <div class="education-content">
-    <strong>Crisis Respondent</strong>
+    <strong>Crisis Line Respondent</strong>
     <div class="education-details">Kids Help Phone</div>
-    <div class="education-details">Completed crisis-intervention training and supported 550+ people over 230+ volunteer hours.</div>
   </div>
   <div class="education-date">2019.09 - 2020.08</div>
 </div>

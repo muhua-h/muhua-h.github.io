@@ -817,6 +817,23 @@ button:focus-visible {
   line-height: 1.55;
 }
 
+.education-course-list {
+  margin: 0.28rem 0 0;
+  padding-left: 1rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.education-course-list li {
+  margin: 0.02rem 0;
+}
+
+.education-course-list li::marker {
+  color: var(--terracotta);
+  font-size: 0.7em;
+}
+
 .education-item .education-date {
   min-width: 0;
   color: var(--forest);
