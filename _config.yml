@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Muhua Huang"
-description              : "PhD student @Stanford | Ex-Intern @Microsoft Research | Computational Social Science @UChicago | CS & Psychology @ UBC"
+description              : "PhD student in Organizational Behavior at Stanford GSB and Student Researcher at Google DeepMind, studying AI, culture, values, and social systems."
 repository               : "muhua-h/muhua-h.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,6 +24,9 @@ author:
   name             : "Muhua Huang"
   avatar           : "images/hmy_profile.jpeg"
   bio              : "<div class='institution-logo'><img src='../../images/GSB.png' class='institution-logo' alt='Stanford Graduate School of Business'></div>"
+  headline         : "PhD Student · Organizational Behavior"
+  affiliation      : "Stanford Graduate School of Business"
+  current_role     : "Student Researcher · Google DeepMind"
   location         : "Palo Alto, CA"
   employer         :
   pubmed           : 
