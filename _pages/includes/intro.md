@@ -1,26 +1,38 @@
-<div class="header-section">
-  <div class="tldr-title">
-    <h1>TL;DR</h1>
+<section class="research-hero" aria-labelledby="research-focus-title">
+  <div class="research-hero__topline">
+    <span>AI × Social Science</span>
+    <time datetime="2026-07">Last updated · July 2026</time>
   </div>
-  <div class="last-updated-top">
-    <small><em>Last updated: July 2026</em></small>
+  <h1 class="research-hero__title" id="research-focus-title">How intelligent systems <em>reflect</em> and reshape society.</h1>
+  <p class="research-hero__lede">
+    I am a PhD student in Organizational Behavior at the Stanford Graduate School of Business, advised by
+    <a href="https://www.gsb.stanford.edu/faculty-research/faculty/douglas-r-guilbeault">Professor Douglas Guilbeault</a>
+    and <a href="https://www.michelegelfand.com/">Professor Michele Gelfand</a>. I study culture, values,
+    cognition, and individual differences within AI for Social Science.
+  </p>
+  <p class="research-hero__lede">
+    I am also a member of the <a href="https://www.comp-culture.org/">Stanford–Berkeley Computational Culture Lab</a>
+    and a fellow of the <a href="https://ai-evaluation.org/programme">International AI Evaluation Programme</a>.
+  </p>
+  <div class="research-hero__tags" aria-label="Research areas">
+    <span>Culture &amp; values</span>
+    <span>AI agents</span>
+    <span>Computational social science</span>
+    <span>Psychometrics</span>
   </div>
+</section>
+
+# About Me
+{: #about-me}
+
+<div class="research-lens">
+  <h2>Questions that guide my work</h2>
+  <ol class="research-questions">
+    <li>How do AI systems fundamentally differ from human intelligence, and what new theories or frameworks can we develop to study their unique characteristics?</li>
+    <li>Given that large language models represent a compressed form of collective human knowledge, what new insights about human behavior and society can we uncover by studying their concept representations?</li>
+    <li>How do AI systems, as social actors, challenge and alter the current interaction dynamic and power structure?</li>
+  </ol>
 </div>
-
-I am a PhD student in Organizational Behavior at the Stanford Graduate School of Business, advised by
-Professor [Douglas Guilbeault](https://www.gsb.stanford.edu/faculty-research/faculty/douglas-r-guilbeault) and 
-Professor [Michele Gelfand](https://www.michelegelfand.com/), broadly 
-studying 
-culture, values, cognition and individual differences within the space of AI for Social Science. I am also member of
- [Stanford–Berkeley Computational Culture Lab](https://www.comp-culture.org/) and a fellow of [International AI Evaluation Programme](https://ai-evaluation.org/programme).
-
----
-
-# 👤 About Me  
-I am intrigued by big questions about humans, society, and AI:
-- How do AI systems fundamentally differ from human intelligence, and what new theories or frameworks can we develop to study their unique characteristics?  
-- Given that large language models represent a compressed form of collective human knowledge, what new insights about human behavior and society can we uncover by studying their concept representations?  
-- How do AI systems, as social actors, challenge and alter the current interaction dynamic and power structure? 
 
 Prior to Stanford, I completed my **M.A. in Computational Social Science** at **The University of Chicago**, advised by [Dr. James Evans](https://sociology.uchicago.edu/directory/james-evans). Together, we explored how Generative Agent-Based Modelling can be used to simulate psychological and social phenomena. Dr. Evans has profoundly influenced me in many dimensions: 
 he taught me to pursue bold ideas with confidence, support others generously, and carry a strong, decisive energy into everything I do. 

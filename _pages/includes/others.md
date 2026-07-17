@@ -1,4 +1,5 @@
-# 📖 Educations
+# Education
+{: #education}
 <div class="education-item">
   <div class="education-content">
     <strong>Stanford Graduate School of Business</strong>
@@ -46,7 +47,8 @@
   <div class="education-date">2021</div>
 </div>
 
-# 💻 Internships
+# Internships
+{: #internships}
 
 <div class="education-item">
   <div class="education-content">

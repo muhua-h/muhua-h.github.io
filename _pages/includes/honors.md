@@ -1,4 +1,5 @@
-# 🎖 Honors and Awards
+# Honors & Awards
+{: #honors-awards}
 
 <div class="education-item">
   <div class="education-content">

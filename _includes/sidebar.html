@@ -3,12 +3,13 @@
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
   
   <!-- Visitor Counter Widget -->
-  <div class="visitor-map" style="margin-top: 20px; padding: 15px; background: #f8f9fa; border-radius: 8px;">
-    <h3 style="font-size: 1.1em; margin-bottom: 15px; text-align: center;">🌍 Visitors Around the World</h3>
+  <div class="visitor-map">
+    <span class="visitor-map__eyebrow">Live readership</span>
+    <h3>Visitors Around the World</h3>
     
-    <div style="min-height: 140px; text-align: center;">
+    <div class="visitor-map__widget">
       <!-- FeedPulse Flag Counter -->
-      <script src="https://visitor-tracker-129.emergent.host/api/embed/flag-counter.js?site_id=7f6f4bd8-34f7-4ff4-9584-561488a9687f&amp;w=260&amp;bc=ffffff&amp;tc=0A0A0A&amp;brd=E5E7EB&amp;hb=002FA7&amp;hf=ffffff&amp;font=IBM%20Plex%20Sans&amp;rows=4&amp;cols=2&amp;cod=1&amp;poll=5000&amp;nobot=1&amp;v=15" async></script>
+      <script src="https://visitor-tracker-129.emergent.host/api/embed/flag-counter.js?site_id=7f6f4bd8-34f7-4ff4-9584-561488a9687f&amp;w=235&amp;bc=f7f3ea&amp;tc=18231c&amp;brd=d6cdbf&amp;hb=1f4b3b&amp;hf=ffffff&amp;font=IBM%20Plex%20Sans&amp;rows=4&amp;cols=2&amp;cod=1&amp;poll=5000&amp;nobot=1&amp;v=15" async></script>
       <script>
         (function () {
           function trackVisit() {

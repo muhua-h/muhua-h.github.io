@@ -1,4 +1,5 @@
-# 📝 Publications 
+# Publications
+{: #publications}
 ## Journal and Conference Proceedings
 - **Huang, M.**, & Evans, J. (2026). Institutions as cached computation for resource-rational negotiation. *Behavioral and Brain Sciences, 49*, e144. [https://doi.org/10.1017/S0140525X2510174X](https://doi.org/10.1017/S0140525X2510174X)
 - Bai, Y., Duan, S., **Huang, M.**, Yao, J., Liu, Z., Zhang, P., ... & Xie, X. (2026). IROTE: Human-like Traits Elicitation of Large Language Model via In-Context Self-Reflective Optimization. *Proceedings of the AAAI Conference on Artificial Intelligence, 40*(36), 30040–30048. [https://doi.org/10.1609/aaai.v40i36.40252](https://doi.org/10.1609/aaai.v40i36.40252)
@@ -9,9 +10,10 @@
 - Kim, H., Yi, X., Bak, J., Yao, J., Lian, J., **Huang, M.**, Duan, S., & Xie, X. (2025). The Road to Artificial SuperIntelligence: A Comprehensive Survey of Superalignment. *SuperIntelligence - Robotics - Safety & Alignment*, 2(1). [https://doi.org/10.70777/si.v2i1.13963](https://doi.org/10.70777/si.v2i1.13963)
 - Savalei, V., & **Huang, M.** (2025). Fit Indices Are Insensitive to Multiple Minor Violations of Perfect Simple Structure in Confirmatory Factor Analysis. *Psychological Methods*. [https://dx.doi.org/10.1037/met0000718](https://dx.doi.org/10.1037/met0000718)
 - Laurin, K., Engstrom, H. R., & **Huang, M.** (2024). What will my life be like when I am 25? How do children's social class contexts predict their imagined and actual futures? *Journal of Social Issues, 80*(4), 1433–1459. [https://doi.org/10.1111/josi.12650](https://doi.org/10.1111/josi.12650)
+{: .publication-list}
 
 ## Conference Presentations
-<sup>†</sup> first author / <sup>*</sup> solo
+<p class="presentation-note"><sup>†</sup> first author &nbsp;·&nbsp; <sup>*</sup> solo</p>
 
 - **Designing AI-Agents with Personalities: A Psychometric Approach**
   - with X. Zhang: *Canadian Psychological Association (CPA) Convention*, Montréal, Canada (Jun 2026)
@@ -42,3 +44,4 @@
 
 - **Gauging Student Engagement with an XAI Interface via Eye-tracking** (with C. Conati, R. Murali)
   - *IJCAI 2022 Workshop on Explainable Artificial Intelligence* (Jun 2022)
+{: .presentation-list}
