@@ -64,4 +64,11 @@
   </div>
   <div class="education-date">2019.09 - 2020.08</div>
 </div>
+
+<div class="education-item">
+  <div class="education-content">
+    <strong>Peer Reviewer</strong>
+    <div class="education-details"><em>Personality Science</em> · <em>Behaviour &amp; Information Technology</em></div>
+  </div>
+</div>
 </section>
