@@ -28,12 +28,7 @@
 <div class="education-item">
   <div class="education-content">
     <strong>Teaching Assistant</strong>
-    <div class="education-details">The University of British Columbia</div>
-    <ul class="education-course-list">
-      <li>Human-Computer Interaction Methods</li>
-      <li>Systematic Program Design</li>
-      <li>Introduction to Systematic Program Design</li>
-    </ul>
+    <div class="education-details">The University of British Columbia · Human-Computer Interaction Methods; Systematic Program Design; Introduction to Systematic Program Design</div>
   </div>
   <div class="education-date">2021.01 - 2022.12</div>
 </div>
@@ -42,7 +37,6 @@
   <div class="education-content">
     <strong>Computational Social Science Workshop Coordinator</strong>
     <div class="education-details">The University of Chicago</div>
-    <div class="education-details">Coordinated the weekly Computational Social Science Workshop.</div>
   </div>
   <div class="education-date">2024.10 - 2025.06</div>
 </div>
@@ -51,7 +45,6 @@
   <div class="education-content">
     <strong>Deep Learning Textbook Editor</strong>
     <div class="education-details">The University of Chicago</div>
-    <div class="education-details">Edited <em>Thinking with Deep Learning</em> and designed LaTeX templates.</div>
   </div>
   <div class="education-date">2023.10 - 2024.10</div>
 </div>
