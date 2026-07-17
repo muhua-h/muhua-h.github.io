@@ -25,6 +25,8 @@
   <div class="education-date">2018.09 - 2023.06</div>
 </div>
 
+## Additional Training
+
 <div class="education-item">
   <div class="education-content">
     <strong>UC Berkeley</strong>
