@@ -23,7 +23,7 @@ baidu_site_verification  : #code-ZxFK3f4pfb
 author:
   name             : "Muhua Huang"
   avatar           : "images/hmy_profile.jpeg"
-  bio              : "<div class='institution-logo'><img src='../../images/GSB.png' class='institution-logo' alt='Stanford Graduate School of Business'></div>"
+  bio              :
   tagline          : "PhD Student @ Stanford | Student Researcher @ Google DeepMind | Computational Social Science | Prev: Microsoft Research, UChicago, UBC."
   location         : "Palo Alto, CA"
   employer         :
