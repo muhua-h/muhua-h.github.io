@@ -336,16 +336,16 @@ button:focus-visible {
 
 .author__bio > .institution-logo {
   display: block;
-  width: 68%;
-  max-width: 145px;
+  width: 56%;
+  max-width: 120px;
   margin: 0;
-  padding: 0.42rem 0.52rem;
+  padding: 0;
   border: 0;
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.82);
+  border-radius: 0;
+  background: transparent;
   box-shadow: none;
-  opacity: 0.78;
-  filter: saturate(0.72);
+  opacity: 0.56;
+  filter: grayscale(1) brightness(0) invert(1);
 }
 
 .author__bio > .institution-logo img {
@@ -398,15 +398,14 @@ button:focus-visible {
   white-space: normal;
 }
 
-.author__urls a,
-.author__urls li:not(:first-child) {
-  color: rgba(255, 255, 255, 0.86);
-}
-
 .author__meta {
   display: flex;
   align-items: center;
   padding: 0.42rem 0.55rem;
+  color: var(--ink);
+  border: 1px solid rgba(175, 252, 254, 0.65);
+  border-radius: 9px;
+  background: rgba(206, 237, 244, 0.96);
   font-size: 0.82rem;
 }
 
@@ -415,15 +414,18 @@ button:focus-visible {
   align-items: center;
   margin: 0;
   padding: 0.42rem 0.55rem;
+  color: var(--ink);
+  border: 1px solid rgba(175, 252, 254, 0.65);
   border-radius: 9px;
+  background: rgba(206, 237, 244, 0.96);
   font-size: 0.82rem;
   text-decoration: none;
   transition: color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
 }
 
 .author__urls a:hover {
-  color: #fff;
-  background: rgba(255, 255, 255, 0.1);
+  color: var(--ink);
+  background: var(--aqua);
   transform: translateX(3px);
   text-decoration: none;
 }
@@ -436,16 +438,16 @@ button:focus-visible {
   height: 1.55rem;
   margin-right: 0.38rem;
   place-items: center;
-  color: var(--forest-deep);
-  border-radius: 7px;
-  background: var(--aqua);
+  color: var(--ink);
+  border-radius: 0;
+  background: transparent;
   line-height: 1.55rem;
   transition: color 0.2s ease, background-color 0.2s ease;
 }
 
 .profile_box .author__urls a:hover i {
-  color: var(--forest-deep);
-  background: var(--terracotta);
+  color: var(--ink);
+  background: transparent;
 }
 
 .author__urls_sm {
@@ -1012,6 +1014,10 @@ button:focus-visible {
 
   .author__urls-wrapper {
     grid-column: auto;
+  }
+
+  .author__urls {
+    grid-template-columns: 1fr;
   }
 
   .research-hero__tags {
