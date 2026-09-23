@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Muhua Huang"
-description              : "PhD Student @ Stanford | Student Researcher @ Google DeepMind | Computational Social Science | Prev: Microsoft Research, UChicago, UBC."
+description              : "PhD Student @ Stanford | Computational Social Science | Prev: Google DeepMind, Microsoft Research, UChicago, UBC."
 repository               : "muhua-h/muhua-h.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,7 +24,7 @@ author:
   name             : "Muhua Huang"
   avatar           : "images/hmy_profile.jpeg"
   bio              :
-  tagline          : "PhD Student @ Stanford | Student Researcher @ Google DeepMind | Computational Social Science | Prev: Microsoft Research, UChicago, UBC."
+  tagline          : "PhD Student @ Stanford | Computational Social Science | Prev: Google DeepMind, Microsoft Research, UChicago, UBC."
   location         : "Palo Alto, CA"
   employer         :
   pubmed           : 

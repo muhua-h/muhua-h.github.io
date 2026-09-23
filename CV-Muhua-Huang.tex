@@ -1,7 +1,7 @@
 \documentclass[11pt,letterpaper]{article}
 
 % Packages
-\usepackage[margin=0.75in]{geometry}
+\usepackage[margin=0.6in]{geometry}
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{titlesec}
@@ -9,7 +9,10 @@
 \usepackage{fontspec}
 \usepackage{tabularx}
 \usepackage{ulem}
+\usepackage{microtype}
 \usepackage{xeCJK}
+\tolerance=1000
+\emergencystretch=1em
 \setCJKmainfont{Songti SC}[BoldFont=Songti SC Bold]
 
 % Colors
@@ -27,13 +30,13 @@
 \titleformat{\section}
     {\normalfont\large\scshape\color{linkblue}}
     {}{0em}{}[\vspace{2pt}\titlerule]
-\titlespacing*{\section}{0pt}{14pt}{8pt}
+\titlespacing*{\section}{0pt}{12pt}{6pt}
 
 % Custom commands
-\newcommand{\myname}[1]{\uline{#1}}
+\newcommand{\myname}[1]{\textbf{\uline{#1}}}
 \newcommand{\dateright}[1]{\hfill #1}
 \newcommand{\institution}[1]{\textcolor{linkblue}{\textbf{#1}}}
-\newcommand{\project}[1]{\hspace{1em}\textbf{\textcolor{black!80}{#1}}}
+\newcommand{\project}[1]{\textbf{\textcolor{black!80}{#1}}}
 \newcommand{\advisor}[1]{\textit{Advisor: #1}}
 
 % Remove page numbers
@@ -48,7 +51,7 @@
 % Updated date in top right corner
 \begin{flushright}
 \vspace{-1em}
-\footnotesize\textit{Updated March 2026}
+\footnotesize\textit{Updated September 2026}
 \end{flushright}
 
 \vspace{-1em}
@@ -193,6 +196,8 @@
 % INTERNSHIP
 %----------------------------------------------------------------------------------------
 \section*{Industry Experience}
+
+\noindent\institution{Google DeepMind} --- Student Researcher \hfill 2026.6 -- 2026.9\\[0.3em]
 
 \noindent\institution{Microsoft Research Asia} --- Research Intern \hfill 2024.7 -- 2024.10\\
 \noindent\advisor{Dr. Xiaoyuan Yi, Dr. Xing Xie}\\[0.3em]

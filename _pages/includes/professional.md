@@ -10,7 +10,7 @@
     <strong>Google DeepMind</strong>
     <div class="education-details">Student Researcher</div>
   </div>
-  <div class="education-date">2026.06 - Present</div>
+  <div class="education-date">2026.06 - 2026.09</div>
 </div>
 
 <div class="education-item">
