@@ -17,7 +17,6 @@
   <div class="education-content">
     <strong>Microsoft Research Asia</strong>
     <div class="education-details">Research Intern</div>
-    <div class="education-details">Research team led by Dr. Xiaoyuan Yi and Dr. Xing Xie</div>
   </div>
   <div class="education-date">2024.07 - 2024.10</div>
 </div>
