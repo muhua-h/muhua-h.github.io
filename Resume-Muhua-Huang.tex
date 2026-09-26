@@ -1,0 +1,118 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\usepackage{tabularx}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+\usepackage{microtype}
+\usepackage{xeCJK}
+\setCJKmainfont{Songti SC}[BoldFont=Songti SC Bold]
+
+\definecolor{linkblue}{RGB}{0,102,204}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=linkblue,
+  urlcolor=linkblue,
+  pdfborder={0 0 0}
+}
+
+\newtcolorbox{summarybox}{
+  enhanced,
+  frame hidden,
+  colback=linkblue!5,
+  borderline west={2pt}{0pt}{linkblue},
+  boxrule=0pt,
+  left=6pt,
+  right=6pt,
+  top=3pt,
+  bottom=3pt,
+  sharp corners
+}
+
+\titleformat{\section}
+  {\normalfont\large\scshape\color{linkblue}}
+  {}{0em}{}[\vspace{1pt}\titlerule]
+\titlespacing*{\section}{0pt}{7pt}{3pt}
+
+\setlist[itemize]{leftmargin=1.35em, nosep, topsep=1pt, itemsep=1pt}
+\pagenumbering{gobble}
+\tolerance=1000
+\emergencystretch=1em
+
+\newcommand{\entry}[3]{%
+  \noindent\textbf{#1} $|$ #2 \hfill #3\\[-0.15em]
+}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries Muhua (黄牧华) Huang}\\[0.25em]
+  {\small
+  \href{mailto:muhua@stanford.edu}{muhua@stanford.edu}
+  \quad$\cdot$\quad
+  \href{https://muhua-h.github.io/}{muhua-h.github.io}
+  \quad$\cdot$\quad
+  \href{https://www.linkedin.com/in/muhua-huang-0311a2177}{LinkedIn}
+  \quad$\cdot$\quad
+  \href{https://scholar.google.com/citations?user=JxIbPdoAAAAJ}{Google Scholar}}
+\end{center}
+
+\vspace{-0.45em}
+
+\begin{summarybox}
+\small
+Computational social scientist and Stanford Organizational Behavior PhD researcher studying how AI systems represent human traits and reshape collective behavior. I build large-scale LLM-agent experiments and psychometric methods to investigate human--AI collaboration, culture, values, and emergent social dynamics.
+\end{summarybox}
+
+\section*{Education}
+
+\begin{tabularx}{\textwidth}{Xr}
+\textbf{Stanford Graduate School of Business}, PhD in Organizational Behavior & 2025 -- 2030 \\
+\textbf{University of Chicago}, MA in Computational Social Science, GPA: 3.9/4.0 & 2023 -- 2025 \\
+\textbf{University of British Columbia}, BA in Computer Science \& Psychology (Honours), GPA: 4.2/4.3 & 2018 -- 2023
+\end{tabularx}
+
+\section*{Research \& Industry Experience}
+
+\entry{PhD Student Researcher}{Stanford Graduate School of Business}{2025 -- Present}
+\begin{itemize}
+  \item Built a large-scale multi-agent coordination experiment with approximately 375,000 GPT-4o trials across networks of 2--50 agents, replicating a human category-formation paradigm.
+  \item Identified systematic human--AI differences in category boundaries and showed that constraining agents to human labels reduced performance by 12.7\%.
+\end{itemize}
+
+\entry{Student Researcher}{Google DeepMind}{Jun -- Sep 2026}
+
+\entry{Research Intern}{Microsoft Research Asia}{Jul -- Oct 2024}
+
+\entry{Master's Researcher}{University of Chicago}{2023 -- 2025}
+\begin{itemize}
+  \item Developed a psychometrically validated framework for assigning Big Five personalities to LLM agents across GPT-3.5, GPT-4, and Claude 3.
+  \item Collected data from 350 participants and showed that assigned personalities predict agents' moral reasoning, risk-taking, and cooperation; published in \textit{Personality Science}.
+\end{itemize}
+
+\entry{Research Assistant}{University of British Columbia}{2020 -- 2023}
+\begin{itemize}
+  \item Applied SEM, ML/NLP, simulation, and eye-tracking across quantitative psychology, social psychology, and human-centered AI projects, contributing to three peer-reviewed publications.
+\end{itemize}
+
+\section*{Selected Publications}
+
+\begin{itemize}
+  \item \textbf{Huang, M.}, Zhang, X., Soto, C., \& Evans, J. (2026). Designing AI-Agents with Personalities: A Psychometric Approach. \textit{Personality Science}.
+  \item \textbf{Huang, M.}, \& Evans, J. (2026). Institutions as cached computation for resource-rational negotiation. \textit{Behavioral and Brain Sciences}, 49, e144.
+  \item Bai, Y., Duan, S., \textbf{Huang, M.}, et al. (2026). IROTE: Human-like Traits Elicitation of Large Language Model via In-Context Self-Reflective Optimization. \textit{AAAI}.
+  \item Savalei, V., \& \textbf{Huang, M.} (2025). Fit Indices Are Insensitive to Multiple Minor Violations of Perfect Simple Structure in Confirmatory Factor Analysis. \textit{Psychological Methods}.
+\end{itemize}
+
+\section*{Methods \& Recognition}
+
+\noindent\textbf{Methods:} LLM agents, generative agent-based modelling, psychometrics, structural equation modelling, social network analysis, ML/NLP, behavioral experiments, RAG, Python, R, SQL.\\
+\textbf{Selected recognition:} Stanford GSB Doctoral Fellowship; Stanford EDGE Doctoral Fellowship; UChicago Outstanding Thesis Award; Microsoft Research Asia Outstanding Intern Award; OpenAI Researcher Access Program.
+
+\end{document}
