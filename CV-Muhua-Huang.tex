@@ -9,6 +9,8 @@
 \usepackage{fontspec}
 \usepackage{tabularx}
 \usepackage{ulem}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
 \usepackage{microtype}
 \usepackage{xeCJK}
 \tolerance=1000
@@ -17,6 +19,16 @@
 
 % Colors
 \definecolor{linkblue}{RGB}{0,102,204}
+
+\newtcolorbox{statementbox}{
+    enhanced,
+    frame hidden,
+    colback=linkblue!5,
+    borderline west={2pt}{0pt}{linkblue},
+    boxrule=0pt,
+    left=6pt, right=6pt, top=3pt, bottom=3pt,
+    sharp corners
+}
 
 % Hyperlink setup
 \hypersetup{
@@ -67,10 +79,20 @@
 
 \vspace{-0.3em}
 
+% Research statement
+\begin{statementbox}
+\noindent I study how AI systems fundamentally differ from \textbf{human intelligence} and how they, as \textbf{social actors}, reshape \textbf{collaboration} and \textbf{collective decision-making}. My research combines \textbf{computational social science}, \textbf{psychometrics}, and \textbf{generative agent-based modelling (GABM)} to investigate AI's unique cognitive characteristics, uncover new insights about human behavior from AI representations, and understand how AI agents alter \textbf{interaction dynamics} within \textbf{groups and organizations}.
+\end{statementbox}
+
+\vspace{0.5em}
+
 % Skills summary
-\noindent\textcolor{linkblue}{\textbf{Research:}} Social Computing, Psychometrics, LLM, Generative AI, Societal AI, Human-AI Cooperation\\
-\noindent\textcolor{linkblue}{\textbf{Engineering:}} High-Performance Computing (AWS, Azure), Relational Database, OOP, HCI, Algorithm Design\\
-\noindent\textcolor{linkblue}{\textbf{Methods:}} LLM-Agent, Structural Equation Modelling, Factor Analysis, Regression, Ensemble Models, Neural Networks, Word Embedding, Fine Tuning, Validation and Evaluation, RAG
+\noindent\textcolor{linkblue}{\textbf{Research:}} Human-AI Collaboration, Organizational Behavior, AI Alignment,
+Computational Social Science\\
+\noindent\textcolor{linkblue}{\textbf{Engineering:}} GABM, Large-Scale LLM
+Experimentation, Fine-tuning, Agent, High Performance Computing\\
+\noindent\textcolor{linkblue}{\textbf{Analytical:}} Psychometrics, Embedding Models, Social Network
+Analysis, ML/NLP, Behavioral Experiment
 
 %----------------------------------------------------------------------------------------
 % EDUCATION
@@ -98,15 +120,17 @@
 \begin{enumerate}[label={[\arabic*]}]
     \item \myname{Huang, M.}, Zhang, X., Soto, C., \& Evans, J. (2026). Designing AI-Agents with Personalities: A Psychometric Approach. \textit{Personality Science}. \href{https://doi.org/10.1177/27000710251406471}{DOI}
 
+    \item Savalei, V., \& \myname{Huang, M.} (2025). Fit Indices Are Insensitive to Multiple Minor Violations of Perfect Simple Structure in Confirmatory Factor Analysis. \textit{Psychological Methods}. \href{https://dx.doi.org/10.1037/met0000718}{DOI}
+
     \item Zhang, X., \myname{Huang, M.}, Sun, J., \& Savalei, V. (2025). Improving the Measurement of the Big Five via Alternative Formats for the BFI-2. \textit{Journal of Personality Assessment}. \href{https://doi.org/10.1080/00223891.2025.2531187}{DOI}
+
+    \item Laurin, K., Engstrom, H., \& \myname{Huang, M.} (2024). What will my life be like when I'm 25? How social class predicts kids' answers to this question, and how their answers predict their futures. \textit{Journal of Social Issues}. \href{https://doi.org/10.1111/josi.12650}{DOI}
+
+    \item Bai, Y., Duan, S., \myname{Huang, M.}, Yao, J., Liu, Z., Zhang, P., \ldots \& Xie, X. (2026). IROTE: Human-like Traits Elicitation of Large Language Model via In-Context Self-Reflective Optimization. \textit{Proceedings of the AAAI Conference on Artificial Intelligence}. [\href{https://arxiv.org/abs/2508.08719}{Preprint}]
 
     \item Yao, J., Yi, X., Duan, S., Wang, J., Bai, Y., \myname{Huang, M.}, \ldots \& Xie, X. (2025). Value compass benchmarks: A comprehensive, generative and self-evolving platform for LLMs' value evaluation. \textit{Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics}. \href{https://doi.org/10.18653/v1/2025.acl-demo.64}{DOI}
 
     \item Kim, H., Yi, X., Bak, J., Yao, J., Lian, J., \myname{Huang, M.}, Duan, S., \& Xie, X. (2025). The Road to Artificial SuperIntelligence: A Comprehensive Survey of Superalignment. \textit{SuperIntelligence - Robotics - Safety \& Alignment}, 2(1). \href{https://doi.org/10.70777/si.v2i1.13963}{DOI}
-
-    \item Savalei, V., \& \myname{Huang, M.} (2025). Fit Indices Are Insensitive to Multiple Minor Violations of Perfect Simple Structure in Confirmatory Factor Analysis. \textit{Psychological Methods}. \href{https://dx.doi.org/10.1037/met0000718}{DOI}
-
-    \item Laurin, K., Engstrom, H., \& \myname{Huang, M.} (2024). What will my life be like when I'm 25? How social class predicts kids' answers to this question, and how their answers predict their futures. \textit{Journal of Social Issues}. \href{https://doi.org/10.1111/josi.12650}{DOI}
 \end{enumerate}
 
 %----------------------------------------------------------------------------------------
@@ -115,15 +139,14 @@
 \section*{Working Papers}
 
 \begin{enumerate}[label={[\arabic*]}]
+    \item \myname{Huang, M.}, \& Guilbeault, D. (In Prep). AI as Alien Intelligence: Shared Vocabulary Masks Divergent Category Systems in Human and AI Collectives. \textit{Manuscript available upon request.}
+
     \item \myname{Huang, M.}, \& Evans, J. (In Press). Institutions as cached computation for resource-rational negotiation. \textit{Behavioral and Brain Sciences}. \href{https://doi.org/10.1017/S0140525X2510174X}{DOI}
 
-    \item Bai, Y., Duan, S., \myname{Huang, M.}, Yao, J., Liu, Z., Zhang, P., \ldots \& Xie, X. (Under Review). IROTE: Human-like Traits Elicitation of Large Language Model via In-Context Self-Reflective Optimization. [\href{https://arxiv.org/abs/2508.08719}{Preprint}]
+    \item Zhang, H., \myname{Huang, M.}, \& Wang, J. (Under Review). Computational Multi-Agents Society Experiments: Social Modeling Framework Based on Generative Agents. [\href{https://arxiv.org/abs/2508.17366}{Preprint}]
 
-    \item Zhang, H., \myname{Huang, M.}, \& Wang, J. (Under Review). Evolving Collective Cognition in Human-Agent Hybrid Societies: How Agents Form Stances and Boundaries. [\href{https://arxiv.org/abs/2508.17366}{Preprint}]
+    \item Kim, H., Yi, X., Yao, J., \myname{Huang, M.}, Bak, J., Evans, J., \& Xie, X. (Under Review). Research on Superalignment Should Advance Now with Parallel Optimization of Competence and Conformity. [\href{https://arxiv.org/abs/2503.07660}{Preprint}]
 
-    \item Kim, H., Yi, X., Yao, J., \myname{Huang, M.}, Bak, J., Evans, J., \& Xie, X. (2025). Research on Superalignment Should Advance Now with Parallel Optimization of Competence and Conformity. [\href{https://arxiv.org/abs/2503.07660}{Preprint}]
-
-    \item \myname{Huang, M.}, \& Guilbeault, D. (In Prep). AI as Alien Intelligence: Shared Vocabulary Masks Divergent Category Systems in Human and AI Collectives. \textit{Manuscript available upon request.}
 \end{enumerate}
 
 %----------------------------------------------------------------------------------------
@@ -133,52 +156,24 @@
 
 \noindent\textsuperscript{$\dagger$} first author / \textsuperscript{*} solo
 
-\vspace{0.5em}
-
-\noindent\hspace{0.5em}\textbf{Designing AI-Agents with Personalities: A Psychometric Approach}
-\begin{itemize}
-    \item with X. Zhang: \textit{Canadian Psychological Association (CPA) Convention}, Montréal, Canada (Jun 2026)
-    \item with X. Zhang: \textit{International Society for Data Science and Analytics (ISDSA) Meeting}, Beijing, China (Jul 2026, Speed Talk)
-    \item \textsuperscript{*} \textit{American Psychological Association (APA) Convention}, Seattle, USA (Aug 2024, Poster)
-\end{itemize}
-
-\noindent\hspace{0.5em}\textbf{Improving the Measurement of the Big Five via Alternative Formats for the BFI-2}
-\begin{itemize}
-    \item with X. Zhang: \textit{Canadian Psychological Association (CPA) Convention}, Montréal, Canada (Jun 2026)
-    \item with X. Zhang, J. Sun, V. Savalei: \textit{International Meeting of the Psychometric Society (IMPS)}, Prague, Czech Republic (Jul 2025)
-    \item \textsuperscript{$\dagger$} with X. Zhang, V. Savalei: \textit{American Psychological Association (APA) Convention}, Washington, DC (Aug 2023, Poster)
-\end{itemize}
-
-\noindent\hspace{0.5em}\textsuperscript{$\dagger$} \textbf{Beyond Anthropomorphism: Unveiling Unique Value Structure of Large Language Models} (with P. Biedma, X. Yi, L. Huang, M. Sun, J. Evans, X. Xie)
-\begin{itemize}
-    \item \textit{11th International Conference on Computational Social Science (IC2S2)}, Norrköping, Sweden (Jul 2025)
-\end{itemize}
-
-\noindent\hspace{0.5em}\textsuperscript{$\dagger$} \textbf{Re-Discovering the Big Five: Using LLM Embeddings to Understand Personality Structure} (with N. Huang)
-\begin{itemize}
-    \item \textit{American Psychological Association (APA) Convention}, Denver, USA (Aug 2025)
-\end{itemize}
-
-\noindent\hspace{0.5em}\textbf{Understanding Silicon Sampling through a Psychometric Lens} (with C. F. Falk, X. Zhang, N. Guenole, W. Li)
-\begin{itemize}
-    \item \textit{Canadian Psychological Association (CPA) Convention}, Montréal, Canada (Jun 2026)
-\end{itemize}
-
-\noindent\hspace{0.5em}\textbf{Can SEM Fit Indices Distinguish Between CFA and EFA Data Structures?} (with V. Savalei)
-\begin{itemize}
-    \item \textit{Annual Meeting of the Society for Multivariate Experimental Psychology (SMEP)}, Iowa City, Iowa (Oct 2023)
-\end{itemize}
-
-\noindent\hspace{0.5em}\textbf{Social Class Differences in Children's Hopes and Expectations for the Future} (with H. Engstrom, K. Laurin)
-\begin{itemize}
-    \item \textit{Society in the Classroom} Symposium, London, England (Jul 2022, Talk)
-    \item \textit{Society for Personality and Social Psychology (SPSP) Annual Convention}, San Francisco, CA (Feb 2022, Talk)
-    \item \textsuperscript{$\dagger$} \textit{Association for Psychological Science (APS) Annual Convention} (May 2021, Poster)
-\end{itemize}
-
-\noindent\hspace{0.5em}\textbf{Gauging Student Engagement with an XAI Interface via Eye-tracking} (with C. Conati, R. Murali)
-\begin{itemize}
-    \item \textit{IJCAI 2022 Workshop on Explainable Artificial Intelligence} (Jun 2022)
+\vspace{0.3em}
+\begin{itemize}[itemsep=4pt]
+    \item \textsuperscript{*} \textbf{Designing AI-Agents with Personalities: A Psychometric Approach}\\
+    {\scriptsize \textit{APA}, Seattle (Aug 2024, Poster); \textit{CPA}, St.\ John's (Jun 2025, w/ X. Zhang); \textit{CPA}, Montréal (Jun 2026, w/ X. Zhang); \textit{ISDSA}, Beijing (Jul 2026, Speed Talk, w/ X. Zhang)}
+    \item \textsuperscript{$\dagger$} \textbf{Beyond Anthropomorphism: Unveiling Unique Value Structure of Large Language Models} (w/ P. Biedma, X. Yi, L. Huang, M. Sun, J. Evans, X. Xie)\\
+    {\scriptsize \textit{IC2S2}, Norrköping (Jul 2025)}
+    \item \textsuperscript{$\dagger$} \textbf{Re-Discovering the Big Five: Using LLM Embeddings to Understand Personality Structure} (w/ N. Huang)\\
+    {\scriptsize \textit{APA}, Denver (Aug 2025)}
+    \item \textsuperscript{$\dagger$} \textbf{Improving the Measurement of the Big Five via Alternative Formats for the BFI-2} (w/ X. Zhang, V. Savalei)\\
+    {\scriptsize \textit{APA}, Washington DC (Aug 2023, Poster); \textit{IMPS}, Minneapolis (Jul 2025, w/ J. Sun); \textit{CPA}, Montréal (Jun 2026)}
+    \item \textsuperscript{$\dagger$} \textbf{Social Class Differences in Children's Hopes and Expectations for the Future} (w/ H. Engstrom, K. Laurin)\\
+    {\scriptsize \textit{APS} (May 2021, Poster); \textit{SPSP}, San Francisco (Feb 2022, Talk); \textit{Society in the Classroom}, London (Jul 2022, Talk)}
+    \item \textbf{Understanding Silicon Sampling through a Psychometric Lens} (w/ C. F. Falk, X. Zhang, N. Guenole, W. Li)\\
+    {\scriptsize \textit{CPA}, Montréal (Jun 2026)}
+    \item \textbf{Can SEM Fit Indices Distinguish Between CFA and EFA Data Structures?} (w/ V. Savalei)\\
+    {\scriptsize \textit{SMEP}, Iowa City (Oct 2023)}
+    \item \textbf{Gauging Student Engagement with an XAI Interface via Eye-tracking} (w/ C. Conati, R. Murali)\\
+    {\scriptsize \textit{IJCAI Workshop on XAI} (Jun 2022)}
 \end{itemize}
 
 %----------------------------------------------------------------------------------------
@@ -197,64 +192,69 @@
 %----------------------------------------------------------------------------------------
 \section*{Industry Experience}
 
-\noindent\institution{Google DeepMind} --- Student Researcher \hfill 2026.6 -- 2026.9\\[0.3em]
+\noindent\textbf{Student Researcher} $|$ Google DeepMind \hfill 2026.6 -- 2026.9\\[0.3em]
 
-\noindent\institution{Microsoft Research Asia} --- Research Intern \hfill 2024.7 -- 2024.10\\
+\noindent\textbf{Research Intern} $|$ Microsoft Research Asia \hfill 2024.7 -- 2024.10\\
 
 %----------------------------------------------------------------------------------------
 % RESEARCH EXPERIENCE
 %----------------------------------------------------------------------------------------
 \section*{Research Experience}
 
-\noindent\institution{University of Chicago} --- Master's Thesis \hfill 2023.9 -- 2024.6\\
+\noindent\textbf{PhD Student Researcher} $|$ Stanford Graduate School of Business \hfill 2025.10 -- Present\\
+\noindent\advisor{Dr. Douglas Guilbeault}\\[0.3em]
+\noindent\project{AI as Alien Intelligence: Shared Vocabulary Masks Divergent Category Systems in Human and AI Collectives}
+\begin{itemize}
+    \item Engineered a large-scale multi-agent coordination experiment ($\sim$375,000 AI trials with GPT-4o agents in network structures of $N$=2 to 50), replicating a human category-formation paradigm.
+    \item Discovered ``representational relativity'': despite comparable behavioral performance, human and AI collectives resolve ambiguity in systematically different places ($r = -0.130$, $p < 0.001$).
+    \item Showed AI labels are disproportionately visual-dominant and concrete, while human labels draw on richer multimodal experience --- divergence driven by grounding modality, not training data.
+    \item Found that AI agents strategically invent novel vocabulary to express distinctions human language cannot; forcing AI to use only human labels reduces performance by 12.7\%.
+\end{itemize}
+
+\vspace{0.5em}
+
+\noindent\textbf{Master's Thesis} $|$ University of Chicago \hfill 2023.9 -- 2024.6\\
 \noindent\advisor{Dr. James Evans}\\[0.3em]
 \noindent\project{Designing LLM-Agents with Personalities: A Psychometric Approach}
 \begin{itemize}
-    \item Examined the embeddings of 5 Big-Five personality tests using OpenAI's large, contextualized embeddings, analyzed their convergent correlations, suggesting new paradigm as response-free psychometric test analysis.
-    \item Investigated personality assignment strategies using real world data and parametric simulations, allowing controllable, fine-grained and replicable personality assignments to LLM-Agents.
-    \item Collected data from 350 participants and conducted direct comparison for humans and Agents' response.
-    \item Validated the predictability of Agents' moral and risk-taking decisions with their personality and comparing that with human participants, showing promising potential to use Agents to substitute humans in behavioral research.
-    \item Conducted systematic evaluations via Confirmatory Factor Analysis (CFA), regression, convergent correlations.
+    \item Developed the first psychometrically validated framework for assigning Big Five personalities to LLM agents, with controllable, fine-grained design across multiple models (GPT-3.5, GPT-4, Claude 3).
+    \item Validated that personality-assigned agents exhibit predictable behavioral differences in moral reasoning, risk-taking, and cooperation (personality explains 38--52\% of variance in agent decisions).
+    \item Collected data from 350 human participants for direct human--agent comparison, demonstrating potential for using personality-designed agents in behavioral research.
+    \item Published in \textit{Personality Science}; methodology enables designing AI agents for specific collaborative roles.
 \end{itemize}
 
 \vspace{0.5em}
 
-\noindent\institution{University of British Columbia} --- Research Assistant, Quantitative Psychology \hfill 2020.4 -- 2023.8\\
+\noindent\textbf{Research Assistant, Quantitative Psychology} $|$ University of British Columbia \hfill 2020.4 -- 2023.8\\
 \noindent\advisor{Dr. Victoria Savalei}\\[0.3em]
 \noindent\project{Exploring the Factor Structure of the BFI-2 in Alternative Scale Formats}
 \begin{itemize}
-    \item Analyzed survey responses using Structural Equation Modeling (SEM) and compared the psychometric properties of four scale formats: Likert, Expanded, Item-Specific-Full, and Item-Specific-Light.
-    \item Found that the Expanded format has the best reliability and model fit for BFI-2, followed by Item-Specific-Full, and Item-Specific-Light. All the alternative scales improved the psychometric properties compared to Likert scale.
-    \item My honors thesis was nominated for multiple Canadian national undergraduate research awards (e.g., Belkin, CPA).
+    \item Compared four personality scale formats using SEM; found that alternative formats (Expanded, Item-Specific) significantly improve reliability and model fit over Likert. Published in \textit{Journal of Personality Assessment}.
+    \item Honours thesis nominated for multiple Canadian national undergraduate research awards (Belkin, CPA).
 \end{itemize}
 \noindent\project{SEM Fit Indices' Sensitivity to Omitted Crossloadings in CFA}
 \begin{itemize}
-    \item Developed an R Shiny app to simulate experimental data and produce interactive visualizations.
-    \item Examined the performance of fit indices across various conditions where CFA models are fit to EFA-like data.
-    \item Conducted extensive literature search, review and replication on CFA and EFA models.
-    \item Assisted with manuscript preparation, editing and proof.
+    \item Built an R Shiny simulation app to examine fit index performance when CFA models are applied to data with EFA-like structure; contributed to manuscript published in \textit{Psychological Methods}.
 \end{itemize}
 
 \vspace{0.5em}
 
-\noindent\institution{University of British Columbia} --- Research Assistant, Social Psychology \hfill 2020.8 -- 2021.9\\
+\noindent\textbf{Research Assistant, Social Psychology} $|$ University of British Columbia \hfill 2020.8 -- 2021.9\\
 \noindent\advisor{Dr. Kristin Laurin}\\[0.3em]
 \noindent\project{Socioeconomics and Imagined Future Study}
 \begin{itemize}
-    \item Analyzed over 10,000 essays and socioeconomic data using supervised and unsupervised ML and NLP algorithms, revealing insightful patterns of clearer and more substantiated future visions among wealthy youth.
-    \item Supervised a group of 20 research assistants for data cleaning task and developed protocols, including a word distribution and performance tracking system, to provide technical support.
-    \item Utilized ML models (Random Forest, Regression and Neural Network), NLP models (Structural Topic Model, LSTM, One-Hot Encoding, Word2Vec Embedding), Packages (Scikit-learn, Keras, Pandas)
+    \item Applied ML (Random Forest, Neural Network) and NLP (Topic Modelling, LSTM, Word2Vec) to analyze 10,000+ youth essays, revealing how socioeconomic background shapes imagined futures. Published in \textit{Journal of Social Issues}.
+    \item Supervised 20 research assistants and built data processing protocols including a word distribution and performance tracking system.
 \end{itemize}
 
 \vspace{0.5em}
 
-\noindent\institution{University of British Columbia} --- Research Assistant, Human-Centered AI \hfill 2021.10 -- 2022.9\\
+\noindent\textbf{Research Assistant, Human-Centered AI} $|$ University of British Columbia \hfill 2021.10 -- 2022.9\\
 \noindent\advisor{Dr. Christina Conati}\\[0.3em]
 \noindent\project{Personalized Explainable AI for Intelligent Tutoring System Study}
 \begin{itemize}
-    \item Evaluated a personalized explainable AI tutoring system by analyzing participants' eye-tracking data and their cognitive and personality data using a linear mixed model.
-    \item Discovered that students with high perceptual speed spent a larger proportion of time on visual information.
-    \item Demonstrated that AI tutoring systems are more effective when tailored to student's cognitive ability.
+    \item Evaluated how personalizing AI explanations to individual cognitive profiles (perceptual speed, personality) affects learning outcomes, using eye-tracking and linear mixed models.
+    \item Found that tailoring AI tutoring interfaces to users' cognitive abilities improves engagement and effectiveness --- demonstrating the value of adaptive human-AI interaction design.
 \end{itemize}
 
 %----------------------------------------------------------------------------------------
@@ -262,49 +262,30 @@
 %----------------------------------------------------------------------------------------
 \section*{Professional Experience}
 
-\noindent
-\begin{tabularx}{\textwidth}{Xr}
-\institution{Computational Social Science Workshop Coordinator} & 2024.10 -- 2025.6 \\
-\end{tabularx}
+\noindent\textbf{Computational Social Science Workshop Coordinator} $|$ University of Chicago \hfill 2024.10 -- 2025.6
 \begin{itemize}
-    \item Organized the weekly MACSS Computational Social Science Workshop, featuring distinguished speakers to promote advanced computational methods and interdisciplinary research.
-    \item Managed advertising through campus channels, GitHub, and email lists to boost participation and enhance the workshop's visibility within the academic community.
+    \item Organized the weekly MACSS Computational Social Science Workshop, featuring speakers on advanced computational methods and interdisciplinary research.
 \end{itemize}
 
 \vspace{0.5em}
 
-\noindent
-\begin{tabularx}{\textwidth}{Xr}
-\institution{Deep Learning Textbook Editor} & 2023.10 -- 2024.10 \\
-\end{tabularx}
+\noindent\textbf{Deep Learning Textbook Editor} $|$ University of Chicago \hfill 2023.10 -- 2024.10
 \begin{itemize}
-    \item Assisting with proofreading and editing the textbook ``Thinking with Deep Learning'' by Dr. James Evans.
-    \item Designed the LaTeX templates for the textbook and for Journal of Social Computing.
+    \item Proofread and edited ``Thinking with Deep Learning'' by Dr. James Evans; designed LaTeX templates for the textbook and for Journal of Social Computing.
 \end{itemize}
 
 \vspace{0.5em}
 
-\noindent
-\begin{tabularx}{\textwidth}{Xr}
-\institution{Teaching Assistant, UBC} & 2021.01 -- 2022.12 \\
-\end{tabularx}
+\noindent\textbf{Teaching Assistant} $|$ University of British Columbia \hfill 2021.01 -- 2022.12
 \begin{itemize}
-    \item \textbf{Courses 1}: Human Computer Interaction Methods.
-    \item \textbf{Courses 2}: Systematic Program Design.
-    \item \textbf{Courses 3}: Introduction to Systematic Program Design.
-    \item Directed labs and tutorials, effectively teaching UI/UX design principles, Figma, and React, along with guiding students through design, user study, and prototyping processes; earned recognition for teaching excellence with an invitation to continue as a TA for advanced levels, a distinction usually reserved for graduate students.
-    \item Collaborated with the teaching team, focusing on practical application of HTML, CSS, and product management.
-    \item Demonstrated outstanding communication and teaching skills; Received highly favorable review of 4.7/5 from students; Received return offer three times.
+    \item TA for Human Computer Interaction Methods and Systematic Program Design; rated 4.7/5 by students and received three return offers.
 \end{itemize}
 
 \vspace{0.5em}
 
-\noindent
-\begin{tabularx}{\textwidth}{Xr}
-\institution{Crisis Respondent, Kids Help Phone} & 2019.09 -- 2020.08 \\
-\end{tabularx}
+\noindent\textbf{Crisis Respondent} $|$ Kids Help Phone \hfill 2019.09 -- 2020.08
 \begin{itemize}
-    \item Completed crisis intervention trainings, provided over 230 hours of crisis counselling, and helped more than 550 individuals in severe mental distress, used professional techniques to calm them down, and directed them to professional help when needed.
+    \item Provided over 230 hours of crisis counselling to 550+ individuals in severe mental distress.
 \end{itemize}
 
 %----------------------------------------------------------------------------------------
