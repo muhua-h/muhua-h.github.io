@@ -13,7 +13,7 @@
 {: .publication-list}
 
 ## Research & Writing Contributions
-- Gonzalez, M. (2026). [*Organizing Intelligence: 16 Big Ideas from Frontier AI Research That Will Redefine How We Build, Lead, and Scale*](https://storage.googleapis.com/deepmind-media/research/organizing-intelligence/organizing-intelligence-research-primer.pdf). Google DeepMind. **Contributing researcher and writer; publicly acknowledged for partnership in conceptualization and research.**
+- **Contributing Researcher and Writer | Stanford HAI & Google DeepMind** (2026). [*Organizing Intelligence: 16 Big Ideas from Frontier AI Research That Will Redefine How We Build, Lead, and Scale*](https://storage.googleapis.com/deepmind-media/research/organizing-intelligence/organizing-intelligence-research-primer.pdf). Publicly acknowledged for partnership in the primer's conceptualization and research.
 {: .publication-list}
 
 ## Conference Presentations
