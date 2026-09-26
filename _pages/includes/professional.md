@@ -17,7 +17,7 @@
   <div class="education-content">
     <strong>Contributing Researcher and Writer</strong>
     <div class="education-details">Stanford HAI &amp; Google DeepMind</div>
-    <div class="education-details">Co-developed <a href="https://storage.googleapis.com/deepmind-media/research/organizing-intelligence/organizing-intelligence-research-primer.pdf"><em>Organizing Intelligence</em></a>, a research primer on 16 frontier ideas in AI and organizations.</div>
+    <div class="education-details">Partnered with Martin Gonzalez on conceptualization, research, and writing for <a href="https://storage.googleapis.com/deepmind-media/research/organizing-intelligence/organizing-intelligence-research-primer.pdf"><em>Organizing Intelligence</em></a>, a 16-topic research primer on AI and organizations; publicly acknowledged in the report.</div>
   </div>
   <div class="education-date">2026</div>
 </div>
@@ -26,6 +26,11 @@
   <div class="education-content">
     <strong>Microsoft Research Asia</strong>
     <div class="education-details">Research Intern</div>
+    <div class="education-details"><em>On the Dynamics of LLMs' Values as a Community</em></div>
+    <ul class="education-course-list">
+      <li>Built a scalable multi-agent platform with cognitive modules, RAG, and parallel processing to model value evolution in LLM communities.</li>
+      <li>Designed experiments on value diversity and population size; applied social network analysis, GraphRAG, and NLP to study social emergence.</li>
+    </ul>
   </div>
   <div class="education-date">2024.07 - 2024.10</div>
 </div>
