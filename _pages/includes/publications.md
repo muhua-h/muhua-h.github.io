@@ -12,10 +12,6 @@
 - Laurin, K., Engstrom, H. R., & **Huang, M.** (2024). What will my life be like when I am 25? How do children's social class contexts predict their imagined and actual futures? *Journal of Social Issues, 80*(4), 1433–1459. [https://doi.org/10.1111/josi.12650](https://doi.org/10.1111/josi.12650)
 {: .publication-list}
 
-## Research & Writing Contributions
-- **Contributing Researcher and Writer | Stanford HAI & Google DeepMind** (2026). [*Organizing Intelligence: 16 Big Ideas from Frontier AI Research That Will Redefine How We Build, Lead, and Scale*](https://storage.googleapis.com/deepmind-media/research/organizing-intelligence/organizing-intelligence-research-primer.pdf). Publicly acknowledged for partnership in the primer's conceptualization and research.
-{: .publication-list}
-
 ## Conference Presentations
 <p class="presentation-note"><sup>†</sup> first author &nbsp;·&nbsp; <sup>*</sup> solo</p>
 

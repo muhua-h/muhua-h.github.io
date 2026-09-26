@@ -2,7 +2,7 @@
 # Professional
 {: #professional}
 
-## Internships
+## Industry Experience
 {: #internships}
 
 <div class="education-item">
@@ -11,6 +11,15 @@
     <div class="education-details">Student Researcher</div>
   </div>
   <div class="education-date">2026.06 - 2026.09</div>
+</div>
+
+<div class="education-item">
+  <div class="education-content">
+    <strong>Contributing Researcher and Writer</strong>
+    <div class="education-details">Stanford HAI &amp; Google DeepMind</div>
+    <div class="education-details">Co-developed <a href="https://storage.googleapis.com/deepmind-media/research/organizing-intelligence/organizing-intelligence-research-primer.pdf"><em>Organizing Intelligence</em></a>, a research primer on 16 frontier ideas in AI and organizations.</div>
+  </div>
+  <div class="education-date">2026</div>
 </div>
 
 <div class="education-item">
