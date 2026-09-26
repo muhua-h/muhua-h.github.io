@@ -1,6 +1,6 @@
 \documentclass[10pt,letterpaper]{article}
 
-\usepackage[margin=0.5in]{geometry}
+\usepackage[top=0.4in,bottom=0.25in,left=0.45in,right=0.45in]{geometry}
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{titlesec}
@@ -38,15 +38,15 @@
 \titleformat{\section}
   {\normalfont\large\scshape\color{linkblue}}
   {}{0em}{}[\vspace{1pt}\titlerule]
-\titlespacing*{\section}{0pt}{7pt}{3pt}
+\titlespacing*{\section}{0pt}{6pt}{3pt}
 
-\setlist[itemize]{leftmargin=1.35em, nosep, topsep=1pt, itemsep=1pt}
+\setlist[itemize]{leftmargin=1.35em, parsep=0pt, topsep=1.5pt, itemsep=1.5pt}
 \pagenumbering{gobble}
 \tolerance=1000
 \emergencystretch=1em
 
 \newcommand{\entry}[3]{%
-  \noindent\textbf{#1} $|$ #2 \hfill #3\\[-0.15em]
+  \vspace{0.22em}\noindent\textbf{#1} $|$ #2 \hfill #3\\[-0.05em]
 }
 
 \begin{document}
@@ -72,11 +72,16 @@ Computational social scientist and Stanford Organizational Behavior PhD research
 
 \section*{Education}
 
+\renewcommand{\arraystretch}{1.08}
 \begin{tabularx}{\textwidth}{Xr}
 \textbf{Stanford Graduate School of Business}, PhD in Organizational Behavior & 2025 -- 2030 \\
 \textbf{University of Chicago}, MA in Computational Social Science, GPA: 3.9/4.0 & 2023 -- 2025 \\
 \textbf{University of British Columbia}, BA in Computer Science \& Psychology (Honours), GPA: 4.2/4.3 & 2018 -- 2023
 \end{tabularx}
+\renewcommand{\arraystretch}{1}
+
+\vspace{0.1em}
+{\small\noindent\textbf{Additional training:} International AI Evaluation Programme Fellow; SICSS-Beijing (Outstanding Project, scholarship); Google Research Mentorship Program Scholar.}
 
 \section*{Research \& Industry Experience}
 
@@ -98,21 +103,37 @@ Computational social scientist and Stanford Organizational Behavior PhD research
 
 \entry{Research Assistant}{University of British Columbia}{2020 -- 2023}
 \begin{itemize}
-  \item Applied SEM, ML/NLP, simulation, and eye-tracking across quantitative psychology, social psychology, and human-centered AI projects, contributing to three peer-reviewed publications.
+  \item Used SEM and simulation to evaluate alternative personality scale formats and CFA fit indices; contributed to publications in \textit{Journal of Personality Assessment} and \textit{Psychological Methods}.
+  \item Applied ML/NLP to 10,000+ youth essays, supervised 20 research assistants, and studied personalized AI explanations using eye-tracking; contributed to \textit{Journal of Social Issues} and an IJCAI XAI workshop paper.
 \end{itemize}
 
-\section*{Selected Publications}
+\section*{Selected Publications \& Research Contributions}
 
+{\small
 \begin{itemize}
-  \item \textbf{Huang, M.}, Zhang, X., Soto, C., \& Evans, J. (2026). Designing AI-Agents with Personalities: A Psychometric Approach. \textit{Personality Science}.
+  \item \textbf{Huang, M.}, et al. (2026). Designing AI-Agents with Personalities: A Psychometric Approach. \textit{Personality Science}.
   \item \textbf{Huang, M.}, \& Evans, J. (2026). Institutions as cached computation for resource-rational negotiation. \textit{Behavioral and Brain Sciences}, 49, e144.
-  \item Bai, Y., Duan, S., \textbf{Huang, M.}, et al. (2026). IROTE: Human-like Traits Elicitation of Large Language Model via In-Context Self-Reflective Optimization. \textit{AAAI}.
+  \item Bai, Y., Duan, S., \textbf{Huang, M.}, et al. (2026). IROTE: Human-like Traits Elicitation of LLMs via In-Context Self-Reflective Optimization. \textit{AAAI}.
   \item Savalei, V., \& \textbf{Huang, M.} (2025). Fit Indices Are Insensitive to Multiple Minor Violations of Perfect Simple Structure in Confirmatory Factor Analysis. \textit{Psychological Methods}.
+  \item Gonzalez, M. (2026). \href{https://storage.googleapis.com/deepmind-media/research/organizing-intelligence/organizing-intelligence-research-primer.pdf}{\textit{Organizing Intelligence}}. Contributing researcher and writer; acknowledged for conceptualization and research.
 \end{itemize}
+}
 
-\section*{Methods \& Recognition}
+\section*{Leadership \& Service}
 
-\noindent\textbf{Methods:} LLM agents, generative agent-based modelling, psychometrics, structural equation modelling, social network analysis, ML/NLP, behavioral experiments, RAG, Python, R, SQL.\\
-\textbf{Selected recognition:} Stanford GSB Doctoral Fellowship; Stanford EDGE Doctoral Fellowship; UChicago Outstanding Thesis Award; Microsoft Research Asia Outstanding Intern Award; OpenAI Researcher Access Program.
+{\small
+\noindent\textbf{Computational Social Science Workshop Coordinator} $|$ University of Chicago \hfill 2024 -- 2025\\[-0.05em]
+Organized the weekly MACSS workshop featuring speakers on advanced computational methods and interdisciplinary research.\\[0.18em]
+\textbf{Teaching Assistant} $|$ University of British Columbia \hfill 2021 -- 2022\\[-0.05em]
+Taught Human Computer Interaction Methods and Systematic Program Design; rated 4.7/5 and received three return offers.\\[0.18em]
+\textbf{Crisis Respondent} $|$ Kids Help Phone; 230+ hours and 550+ people supported \hfill 2019 -- 2020\\[0.18em]
+\textbf{Peer Reviewer} $|$ \textit{Personality Science}; \textit{Behaviour \& Information Technology}
+}
+
+\vspace{0.1em}
+{\small
+\noindent\textcolor{linkblue}{\textbf{Methods:}} LLM agents/GABM, psychometrics/SEM, social network analysis, ML/NLP, behavioral experiments, RAG, Python, R, SQL.\\
+{\scriptsize\textcolor{linkblue}{\textbf{Recognition:}} Stanford GSB \& EDGE Fellowships; UChicago Thesis Award; MSRA Outstanding Intern; OpenAI Researcher Access.}
+}
 
 \end{document}
