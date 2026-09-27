@@ -3,11 +3,11 @@
 {: #publications}
 ## AI Simulation
 - **Huang, M.**, & Evans, J. (2026). Institutions as cached computation for resource-rational negotiation. *Behavioral and Brain Sciences, 49*, e144. [https://doi.org/10.1017/S0140525X2510174X](https://doi.org/10.1017/S0140525X2510174X)
+- **Huang, M.**, Zhang, X., Soto, C., & Evans, J. (2026). Designing AI-Agents With Personalities: A Psychometric Approach. *Personality Science, 7*. [https://doi.org/10.1177/27000710251406471](https://doi.org/10.1177/27000710251406471)
+- Bai, Y., Duan, S., **Huang, M.**, Yao, J., Liu, Z., Zhang, P., ... & Xie, X. (2026). IROTE: Human-like Traits Elicitation of Large Language Model via In-Context Self-Reflective Optimization. *Proceedings of the AAAI Conference on Artificial Intelligence, 40*(36), 30040–30048. [https://doi.org/10.1609/aaai.v40i36.40252](https://doi.org/10.1609/aaai.v40i36.40252)
 {: .publication-list}
 
 ## AI Character & Value Alignment
-- **Huang, M.**, Zhang, X., Soto, C., & Evans, J. (2026). Designing AI-Agents With Personalities: A Psychometric Approach. *Personality Science, 7*. [https://doi.org/10.1177/27000710251406471](https://doi.org/10.1177/27000710251406471)
-- Bai, Y., Duan, S., **Huang, M.**, Yao, J., Liu, Z., Zhang, P., ... & Xie, X. (2026). IROTE: Human-like Traits Elicitation of Large Language Model via In-Context Self-Reflective Optimization. *Proceedings of the AAAI Conference on Artificial Intelligence, 40*(36), 30040–30048. [https://doi.org/10.1609/aaai.v40i36.40252](https://doi.org/10.1609/aaai.v40i36.40252)
 - Yao, J., Yi, X., Duan, S., Wang, J., Bai, Y., **Huang, M.**, ... & Xie, X. (2025). Value compass benchmarks: A comprehensive, generative and self-evolving platform for llms' value evaluation. *Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics*. [https://doi.org/10.18653/v1/2025.acl-demo.64](https://doi.org/10.18653/v1/2025.acl-demo.64)
 - Kim, H., Yi, X., Bak, J., Yao, J., Lian, J., **Huang, M.**, Duan, S., & Xie, X. (2025). The Road to Artificial SuperIntelligence: A Comprehensive Survey of Superalignment. *SuperIntelligence - Robotics - Safety & Alignment, 2*(1). [https://doi.org/10.70777/si.v2i1.13963](https://doi.org/10.70777/si.v2i1.13963)
 {: .publication-list}
