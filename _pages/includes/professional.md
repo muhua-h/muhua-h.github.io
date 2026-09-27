@@ -16,11 +16,11 @@
 
 <div class="education-item">
   <div class="education-content">
-    <strong>Contributing Researcher and Writer</strong>
-    <div class="education-details">Stanford HAI &amp; Google DeepMind</div>
+    <strong>Stanford HAI &amp; Google DeepMind</strong>
+    <div class="education-details">Contributing Researcher and Writer</div>
     <div class="education-details">Partnered with Martin Gonzalez on conceptualization, research, and writing for <a href="https://storage.googleapis.com/deepmind-media/research/organizing-intelligence/organizing-intelligence-research-primer.pdf"><em>Organizing Intelligence</em></a>, a 16-topic research primer on AI and organizations; publicly acknowledged in the report.</div>
   </div>
-  <div class="education-date">2026</div>
+  <div class="education-date">2026.01 - 2026.04</div>
 </div>
 
 <div class="education-item">
