@@ -9,6 +9,10 @@
   <div class="education-content">
     <strong>Google DeepMind</strong>
     <div class="education-details">Student Researcher</div>
+    <ul class="education-course-list">
+      <li>Led research on which AI-agent skills transfer across occupations. Building a taxonomy from large-scale labor-market data and an evaluation framework to predict performance in untested occupations.</li>
+      <li>Lead-authored a <em>Harvard Business Review</em> perspective (in preparation) with DeepMind's Head of Organizational AI Research. It argues that LLMs trained on aggregate data and consensus preferences tend toward convergent ideas, while taste grounded in local, individual experience matters in early-stage innovation. Synthesized research on model homogenization, creativity, and uncertainty into strategies for leaders to use AI without flattening their judgment.</li>
+    </ul>
   </div>
   <div class="education-date">2026.06 - 2026.09</div>
 </div>
@@ -26,10 +30,9 @@
   <div class="education-content">
     <strong>Microsoft Research Asia</strong>
     <div class="education-details">Research Intern</div>
-    <div class="education-details"><em>On the Dynamics of LLMs' Values as a Community</em></div>
     <ul class="education-course-list">
-      <li>Built a scalable multi-agent platform with cognitive modules, RAG, and parallel processing to model value evolution in LLM communities.</li>
-      <li>Designed experiments on value diversity and population size; applied social network analysis, GraphRAG, and NLP to study social emergence.</li>
+      <li>Studied value alignment and the unique structure of AI systems' values; compared strategies for eliciting personality traits in LLMs.</li>
+      <li>Built multi-agent simulations to examine diversity and emergence in AI-agent communities, using social network analysis, GraphRAG, and NLP to study networks, language, and social structures.</li>
     </ul>
   </div>
   <div class="education-date">2024.07 - 2024.10</div>
