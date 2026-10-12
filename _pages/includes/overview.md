@@ -7,8 +7,7 @@
   <h1 class="research-hero__title" id="research-focus-title">How intelligent systems <em>reflect</em> and reshape society.</h1>
   <p class="research-hero__lede">
     I am a PhD student in Organizational Behavior at the Stanford Graduate School of Business, advised by
-    <a href="https://www.gsb.stanford.edu/faculty-research/faculty/douglas-r-guilbeault">Professor Douglas Guilbeault</a>
-    and <a href="https://www.michelegelfand.com/">Professor Michele Gelfand</a>. I study culture, values,
+    <a href="https://www.gsb.stanford.edu/faculty-research/faculty/douglas-r-guilbeault">Professor Douglas Guilbeault</a>. I study culture, values,
     cognition, and individual differences within AI for Social Science.
   </p>
   <p class="research-hero__lede">
