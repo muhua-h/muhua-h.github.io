@@ -29,8 +29,8 @@
   <h2>Questions that guide my work</h2>
   <ol class="research-questions">
     <li>How do AI systems fundamentally differ from human intelligence, and what new theories or frameworks can we develop to study their unique characteristics?</li>
-    <li>Given that large language models represent a compressed form of collective human knowledge, what new insights about human behavior and society can we uncover by studying their concept representations?</li>
-    <li>How do AI systems, as social actors, challenge and alter the current interaction dynamic and power structure?</li>
+    <li>Socio-technical systems, from Google Images to computer vision models to LLMs, compress and aggregate what humanity has produced and so mirror our collective worldview. What new insights about human behavior, culture, and society can we uncover by treating them as data to be mined?</li>
+    <li>Taking a complex systems perspective, what collective behaviors emerge when AI agents interact with one another? And as humans and AI co-evolve, continually shaping each other, how does this reshape how we interact, organize, and distribute power?</li>
   </ol>
 </div>
 
