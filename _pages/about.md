@@ -14,6 +14,7 @@ redirect_from:
   <button class="section-tab" id="tab-education" type="button" role="tab" aria-selected="false" aria-controls="panel-education" tabindex="-1" data-tab-target="panel-education" data-tab-hash="education">Education</button>
   <button class="section-tab" id="tab-professional" type="button" role="tab" aria-selected="false" aria-controls="panel-professional" tabindex="-1" data-tab-target="panel-professional" data-tab-hash="professional">Professional</button>
   <button class="section-tab" id="tab-honors" type="button" role="tab" aria-selected="false" aria-controls="panel-honors" tabindex="-1" data-tab-target="panel-honors" data-tab-hash="honors-awards">Honors</button>
+  <button class="section-tab" id="tab-cv" type="button" role="tab" aria-selected="false" aria-controls="panel-cv" tabindex="-1" data-tab-target="panel-cv" data-tab-hash="cv">CV</button>
 </div>
 
 {% include_relative includes/overview.md %}
@@ -25,3 +26,5 @@ redirect_from:
 {% include_relative includes/professional.md %}
 
 {% include_relative includes/honors.md %}
+
+{% include_relative includes/cv.md %}

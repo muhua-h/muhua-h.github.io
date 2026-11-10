@@ -15,7 +15,7 @@
     and a fellow of the <a href="https://ai-evaluation.org/programme">International AI Evaluation Programme</a>.
   </p>
   <div class="research-hero__tags" aria-label="Research areas">
-    <span>Culture &amp; values</span>
+    <span>Culture &amp; Cognition</span>
     <span>AI agents</span>
     <span>Computational social science</span>
     <span>Psychometrics</span>
@@ -49,7 +49,9 @@ scientific inquiry.
 My research has since expanded through collaborations at **Microsoft Research Asia** with 
 [Dr. Xiaoyuan Yi](https://www.microsoft.com/en-us/research/people/yixiaoyuan/) and 
 [Dr. Xing Xie](https://www.microsoft.com/en-us/research/people/xingx/), where we examine AI 
-alignment problems.  
+alignment problems, and at **Google DeepMind**, where I worked as a Student Researcher with 
+[Martin Gonzalez](https://www.linkedin.com/in/martinjosegonzalez/) on AI evaluation, studying 
+how frontier AI systems perform in workplace settings.  
 
 Across all my recent projects, I like to adopt a framework that treats intelligent 
 systems as evolving and active social participants that reflect and reshape human society.

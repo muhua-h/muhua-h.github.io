@@ -17,7 +17,8 @@
     "internships": "tab-professional",
     "teaching": "tab-professional",
     "volunteer": "tab-professional",
-    "honors-awards": "tab-honors"
+    "honors-awards": "tab-honors",
+    "cv": "tab-cv"
   };
 
   function tabById(id) {
